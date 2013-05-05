@@ -729,9 +729,21 @@ public final class KeyboardTextsSet {
         // U+00E5: "å" LATIN SMALL LETTER A WITH RING ABOVE
         // U+0101: "ā" LATIN SMALL LETTER A WITH MACRON
         /* 0 */ "\u00E4,\u00E2,\u00E0,\u00E1,\u00E6,\u00E3,\u00E5,\u0101",
+        // U+00E8: "è" LATIN SMALL LETTER E WITH GRAVE
+        // U+00E9: "é" LATIN SMALL LETTER E WITH ACUTE
+        // U+00EA: "ê" LATIN SMALL LETTER E WITH CIRCUMFLEX
+        // U+00EB: "ë" LATIN SMALL LETTER E WITH DIAERESIS
+        // U+0113: "ē" LATIN SMALL LETTER E WITH MACRON
+        /* 1 */ "\u00E8,\u00E9,\u00EA,\u00EB,\u0113,\u0117",
         // U+0117: "ė" LATIN SMALL LETTER E WITH DOT ABOVE
-        /* 1 */ "\u0117",
-        /* 2 */ null,
+        ///* 1 */ "\u0117",
+        // U+00ED: "í" LATIN SMALL LETTER I WITH ACUTE
+        // U+00EE: "î" LATIN SMALL LETTER I WITH CIRCUMFLEX
+        // U+00EC: "ì" LATIN SMALL LETTER I WITH GRAVE
+        // U+00EF: "ï" LATIN SMALL LETTER I WITH DIAERESIS
+        // U+012F: "į" LATIN SMALL LETTER I WITH OGONEK
+        // U+012B: "ī" LATIN SMALL LETTER I WITH MACRON
+        /* 2 */ "\u00ED,\u00EE,\u00EC,\u00EF,\u012F,\u012B",
         // U+00F6: "ö" LATIN SMALL LETTER O WITH DIAERESIS
         // U+00F4: "ô" LATIN SMALL LETTER O WITH CIRCUMFLEX
         // U+00F2: "ò" LATIN SMALL LETTER O WITH GRAVE
@@ -754,6 +766,10 @@ public final class KeyboardTextsSet {
         // U+00F1: "ñ" LATIN SMALL LETTER N WITH TILDE
         // U+0144: "ń" LATIN SMALL LETTER N WITH ACUTE
         /* 6 */ "\u00F1,\u0144",
+        // U+00E7: "ç" LATIN SMALL LETTER C WITH CEDILLA
+        // U+010D: "č" LATIN SMALL LETTER C WITH CARON
+        // U+0107: "ć" LATIN SMALL LETTER C WITH ACUTE
+        /* 7 */ "\u00E7,\u010D,\u0107",
     };
 
     /* Language en: English */
@@ -1913,7 +1929,10 @@ public final class KeyboardTextsSet {
         // U+00FB: "û" LATIN SMALL LETTER U WITH CIRCUMFLEX
         // U+016B: "ū" LATIN SMALL LETTER U WITH MACRON
         /* 4 */ "\u00FA,\u00FC,\u00F9,\u00FB,\u016B",
-        /* 5 */ null,
+        // U+00DF: "ß" LATIN SMALL LETTER SHARP S
+        // U+015B: "ś" LATIN SMALL LETTER S WITH ACUTE
+        // U+0161: "š" LATIN SMALL LETTER S WITH CARON
+        /* 5 */ "\u00DF,\u015B,\u0161",
         /* 6 */ null,
         // U+00E7: "ç" LATIN SMALL LETTER C WITH CEDILLA
         // U+010D: "č" LATIN SMALL LETTER C WITH CARON
