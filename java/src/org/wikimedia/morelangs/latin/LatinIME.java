@@ -631,7 +631,8 @@ public class LatinIME extends WiFiInputMethod implements KeyboardActionListener,
 
     @Override
     public void onStartInput(EditorInfo editorInfo, boolean restarting) {
-        mHandler.onStartInput(editorInfo, restarting);
+    	super.onStartInput(editorInfo, restarting);
+        mHandler.onStartInput(editorInfo, restarting);        
     }
 
     @Override
