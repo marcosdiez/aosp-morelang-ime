@@ -39,11 +39,12 @@ def parse_R(file, values):
       match = re.search(".*public static final int (.*)=0x(.*);", line)
       if match:
         values[match.group(1)] = match.group(2)
-  except:
+  except Exception as e:
+    print e
     sys.exit(1)
 
 parse('en', values_en);
-parse_R('gen/com/volosyukivan/R.java', values_lang);
+parse_R('gen/org/wikimedia/morelangs/latin/R.java', values_lang);
 page=open('html/key.html').read();
 for num,(key,orig) in enumerate(
          sorted(values_en.iteritems(),
