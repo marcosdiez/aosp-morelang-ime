@@ -1,5 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        coreApp="true"
         package="org.wikimedia.morelangs.latin">
 
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="17" />
@@ -23,7 +22,9 @@
     <application android:label="@string/morelangs_application_name"
             android:icon="@drawable/ic_ime_settings"
             android:backupAgent="org.wikimedia.morelangs.latin.BackupAgent"
-            android:killAfterRestore="false">
+            android:killAfterRestore="false"
+            android:allowBackup="false"
+            >
 
         <service android:name="org.wikimedia.morelangs.latin.LatinIME"
                 android:label="@string/morelangs_application_name"
@@ -95,6 +96,8 @@
         </activity>
 
         <!-- Declares the input method service -->
+        <!--  // we already have one from the other keyboard
+        
         <service android:name="com.volosyukivan.WiFiInputMethod"
             android:label="WiFiKeyboard"
             android:permission="android.permission.BIND_INPUT_METHOD">
@@ -103,6 +106,8 @@
             </intent-filter>
             <meta-data android:name="android.view.im" android:resource="@xml/method" />
         </service>
+        -->
+        
         <service android:name="com.volosyukivan.HttpService"/>
 
         <receiver android:name="com.volosyukivan.WidgetProvider" android:label="WiFiKeyboard">
@@ -112,13 +117,6 @@
           <meta-data android:name="android.appwidget.provider"
                      android:resource="@xml/widget" />
         </receiver>
-
-
-
-
-
-
-
 
 
     </application>
