@@ -215,12 +215,12 @@ public class HttpService extends Service {
     } catch (IOException e) {
       throw new RuntimeException("failed to load html page", e);
     }
-//    while (true) {    	
-//      int pos = page.indexOf("$");     
-//      if (pos == -1) break;
-//      int res = Integer.parseInt(page.substring(pos + 1, pos + 9), 16);
-//      page.replace(pos, pos + 9, getString(res));
-//    }
+    while (true) {    	
+      int pos = page.indexOf("$");     
+      if (pos == -1) break;
+      int res = Integer.parseInt(page.substring(pos + 1, pos + 9), 16);
+      page.replace(pos, pos + 9, getString(res));
+    }
     htmlpage = page.toString();
     startServer(this);
   }

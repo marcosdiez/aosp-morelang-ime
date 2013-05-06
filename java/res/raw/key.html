@@ -4,16 +4,16 @@
  * Copyright (C) 2011 Ivan Volosyuk
  *
  * This program is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License
+ * modify it under the terms of the GNU $7f0a0062 Public License
  * as published by the Free Software Foundation; either version 2
  * of the License, or (at your option) any later version.
 
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
+ * GNU $7f0a0062 Public License for more details.
 
- * You should have received a copy of the GNU General Public License
+ * You should have received a copy of the GNU $7f0a0062 Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  -->
@@ -44,7 +44,7 @@
     ignore_next_char = false;
     repeat_key_code = "-1";
 
-    seqConfirmed = 12345;
+    seqConfirmed = $7f0a008b45;
     seqPressed = seqConfirmed;
     events=Object();
     num_inflight = 0;
@@ -181,7 +181,7 @@
 	if (code >= 16 && code <= 20) return true;
       } else {
         if (code == 42 || code == 45 || code == 46 || code == 93 || code == 145) return true;
-	if (code >= 112 && code <= 123) return true;
+	if (code >= 112 && code <= $7f0a008b) return true;
       }
       return false;
     }
@@ -284,21 +284,21 @@
       if (stat == null) return;
 
       if (newState == "connected") {
-        stat.innerHTML = "$7f070018";
+        stat.innerHTML = "$7f0a0042";
         stat["color"] = "green";
-        xcomment.innerHTML = "$7f070019";
+        xcomment.innerHTML = "$7f0a0043";
       } else if (newState == "failure") {
-        stat.innerHTML = "$7f07000f";
+        stat.innerHTML = "$7f0a0039";
         stat["color"] = "red";
-        xcomment.innerHTML = "$7f070010";
+        xcomment.innerHTML = "$7f0a003a";
       } else if (newState == "problem") {
-        stat.innerHTML = "$7f070011";
+        stat.innerHTML = "$7f0a003b";
         stat["color"] = "red";
-        xcomment.innerHTML = '$7f070012 <a href="$7f070014">$7f070013</a>';
+        xcomment.innerHTML = '$7f0a003c <a href="$7f0a003e">$7f0a003d</a>';
       } else if (newState == "multi") {
-        stat.innerHTML = "$7f070016";
+        stat.innerHTML = "$7f0a0040";
         stat["color"] = "red";
-        xcomment.innerHTML = "$7f070017";
+        xcomment.innerHTML = "$7f0a0041";
       }
     }
 
@@ -463,12 +463,12 @@
 <tr valign="top">
 <td class="main" width="450">
 <!-- Main Window -->
-<h1>$7f07000e</h1>
+<h1>$7f0a0038</h1>
   <table border="0"><tbody><tr><td cellspacing="50" cellpadding="50">
   <form name="f">
-  <h2>$7f07001d</h2>
-  <div class="mode"><input type="radio" name="mode" value="i" checked>$7f07001e</div>
-  <div class="mode"><input type="radio" name="mode" value="c">$7f07001f</div>
+  <h2>$7f0a0047</h2>
+  <div class="mode"><input type="radio" name="mode" value="i" checked>$7f0a0048</div>
+  <div class="mode"><input type="radio" name="mode" value="c">$7f0a0049</div>
   </form>
   </td></tr></tbody></table>
 
@@ -478,16 +478,16 @@
   <table border="0"><tbody><tr><td cellspacing="50" cellpadding="50">
   <tr>
   <td>
-  <h2>$7f070022</h2>
+  <h2>$7f0a004c</h2>
   <ul>
-  <li>$7f070023</li>
-  <li>$7f070024</li>
-  <li>$7f070025</li>
-  <li>$7f070026</li>
-  <li>$7f070027</li>
-  <li>F3 = Search</li>
+  <li>$7f0a004d</li>
+  <li>$7f0a004e</li>
+  <li>$7f0a004f</li>
+  <li>$7f0a0050</li>
+  <li>$7f0a0051</li>
+  <li>F3 = $7f0a009f</li>
   <li>Escape,F5 = BACK</li>
-  <li>$7f070029</li>
+  <li>$7f0a0053</li>
   <li><font color="red">F4 = Edit locally/ submit (alpha)</font></li>
   </ul>
   </td></tr></tbody></table>
@@ -495,7 +495,7 @@
 <td align="right" width="200">
 <!-- Side bar -->
   <table border="1" cellpadding="20"><tbody><tr><td cellspacing="50" cellpadding="50">
-  <h2>$7f070020 <font color="black" id="status">$7f070021</font></h2>
+  <h2>$7f0a004a <font color="black" id="status">$7f0a004b</font></h2>
   <div id="comment"></div>
   </td></tr></tbody></table>
 
@@ -504,7 +504,7 @@
 </tr>
 <tr>
 <td colspan="3">
-  <h2>$7f07001b</h2>
+  <h2>$7f0a0045</h2>
   <form method="post" action="/form">
       <input type="hidden" name="name" value="value">
       <textarea name="text" cols="100" rows="20" id="in"></textarea>
@@ -514,7 +514,7 @@
 </tr>
 <tr>
 <td colspan="3">
-  <div class="footer"><a href="http://code.google.com/p/wifikeyboard/">$7f07002a</a><br>$7f07002b</div>
+  <div class="footer"><a href="http://code.google.com/p/wifikeyboard/">$7f0a0054</a><br>$7f0a0055</div>
 <!-- <div id="keys">Debug: key presses:</div> -->
 <!-- <div id="debug">New event placeholder.</div> -->
 <td>
