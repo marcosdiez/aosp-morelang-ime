@@ -82,10 +82,12 @@ import java.util.Locale;
 
 import org.wikimedia.morelangs.InputMethod;
 
+import com.volosyukivan.WiFiInputMethod;
+
 /**
  * Input method implementation for Qwerty'ish keyboard.
  */
-public class LatinIME extends InputMethodService implements KeyboardActionListener,
+public class LatinIME extends WiFiInputMethod implements KeyboardActionListener,
         SuggestionsView.Listener, TargetApplicationGetter.OnTargetApplicationKnownListener {
     private static final String TAG = LatinIME.class.getSimpleName();
     private static final boolean TRACE = false;
