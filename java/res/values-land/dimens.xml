@@ -68,4 +68,11 @@
     <dimen name="more_keys_keyboard_slide_allowance">53.76dp</dimen>
     <!-- popup_key_height x -1.0 -->
     <dimen name="more_keys_keyboard_vertical_correction">-44.8dp</dimen>
+
+
+<dimen name="paddingTop">2dip</dimen>
+<dimen name="marginLeft">10dip</dimen>
+<dimen name="marginRight">10dip</dimen>
+<dimen name="marginTop">0dip</dimen>
+<dimen name="marginBottom">0dip</dimen>
 </resources>
