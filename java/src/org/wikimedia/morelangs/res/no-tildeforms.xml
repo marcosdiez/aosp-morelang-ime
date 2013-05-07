@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<inputmethod id="no-tildeforms" name="Norsk" description="Norwegian input method with initial tilde triggering transliteration" author="John Erling Blad" version="1.0" contextLength="0" maxKeyLength="3">
+  <pattern input="°a" replacement="å"/>
+  <pattern input="°A" replacement="Å"/>
+  <pattern input="~ae" replacement="æ"/>
+  <pattern input="~AE" replacement="Æ"/>
+  <pattern input="~oe" replacement="ø"/>
+  <pattern input="~OE" replacement="Ø"/>
+  <pattern input="~aa" replacement="å"/>
+  <pattern input="~AA" replacement="Å"/>
+</inputmethod>

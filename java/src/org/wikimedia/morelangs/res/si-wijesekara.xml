@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<inputmethod id="si-wijesekara" name="Sinhalese Wijesekara" description="Wijesekara layout for Sinhalese" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="2">
+  <pattern input="o" replacement="ඳ" altGr="true"/>
+  <pattern input="v" replacement="ඬ" altGr="true"/>
+  <pattern input="&apos;" replacement="෴" altGr="true"/>
+  <pattern input="a" replacement="ෳ" altGr="true"/>
+  <pattern input="\." replacement="ඟ" altGr="true"/>
+  <pattern input="x" replacement="ඦ" altGr="true"/>
+  <pattern input="," replacement="ඏ" altGr="true"/>
+  <pattern input="`" replacement="්‍ර"/>
+  <pattern input="~" replacement="ර්‍"/>
+  <pattern input="q" replacement="ු"/>
+  <pattern input="w" replacement="අ"/>
+  <pattern input="අe" replacement="ඇ"/>
+  <pattern input="e" replacement="ැ"/>
+  <pattern input="r" replacement="ර"/>
+  <pattern input="ෙt" replacement="ඓ"/>
+  <pattern input="t" replacement="එ"/>
+  <pattern input="y" replacement="හ"/>
+  <pattern input="u" replacement="ම"/>
+  <pattern input="i" replacement="ස"/>
+  <pattern input="o" replacement="ද"/>
+  <pattern input="p" replacement="ච"/>
+  <pattern input="\[" replacement="ඤ"/>
+  <pattern input="\]" replacement=";"/>
+  <pattern input="එa" replacement="ඒ"/>
+  <pattern input="ඔa" replacement="ඕ"/>
+  <pattern input="a" replacement="්"/>
+  <pattern input="s" replacement="ි"/>
+  <pattern input="අd" replacement="ආ"/>
+  <pattern input="d" replacement="ා"/>
+  <pattern input="f" replacement="ෙ"/>
+  <pattern input="g" replacement="ට"/>
+  <pattern input="h" replacement="ය"/>
+  <pattern input="j" replacement="ව"/>
+  <pattern input="k" replacement="න"/>
+  <pattern input="l" replacement="ක"/>
+  <pattern input=";" replacement="ත"/>
+  <pattern input="&apos;" replacement="."/>
+  <pattern input="z" replacement="&apos;"/>
+  <pattern input="x" replacement="ං"/>
+  <pattern input="c" replacement="ජ"/>
+  <pattern input="v" replacement="ඩ"/>
+  <pattern input="b" replacement="ඉ"/>
+  <pattern input="n" replacement="බ"/>
+  <pattern input="m" replacement="ප"/>
+  <pattern input="\," replacement="ල"/>
+  <pattern input="\." replacement="ග"/>
+  <pattern input="Q" replacement="ූ"/>
+  <pattern input="W" replacement="උ"/>
+  <pattern input="අE" replacement="ඈ"/>
+  <pattern input="E" replacement="ෑ"/>
+  <pattern input="R" replacement="ඍ"/>
+  <pattern input="T" replacement="ඔ"/>
+  <pattern input="Y" replacement="ශ"/>
+  <pattern input="U" replacement="ඹ"/>
+  <pattern input="I" replacement="ෂ"/>
+  <pattern input="O" replacement="ධ"/>
+  <pattern input="P" replacement="ඡ"/>
+  <pattern input="\{" replacement="ඥ"/>
+  <pattern input="\}" replacement=":"/>
+  <pattern input="උA" replacement="ඌ"/>
+  <pattern input="ඏA" replacement="ඐ"/>
+  <pattern input="ඔA" replacement="ඖ"/>
+  <pattern input="A" replacement="ෟ"/>
+  <pattern input="S" replacement="ී"/>
+  <pattern input="ඍD" replacement="ඎ"/>
+  <pattern input="ෘD" replacement="ෲ"/>
+  <pattern input="D" replacement="ෘ"/>
+  <pattern input="F" replacement="ෆ"/>
+  <pattern input="G" replacement="ඨ"/>
+  <pattern input="H" replacement="ය"/>
+  <pattern input="J" replacement="ළ"/>
+  <pattern input="K" replacement="ණ"/>
+  <pattern input="L" replacement="ඛ"/>
+  <pattern input="\:" replacement="ථ"/>
+  <pattern input="&quot;" replacement=","/>
+  <pattern input="Z" replacement="&quot;"/>
+  <pattern input="X" replacement="ඃ"/>
+  <pattern input="C" replacement="ඣ"/>
+  <pattern input="V" replacement="ඪ"/>
+  <pattern input="B" replacement="ඊ"/>
+  <pattern input="N" replacement="භ"/>
+  <pattern input="M" replacement="ඵ"/>
+  <pattern input="\&lt;" replacement="ළ"/>
+  <pattern input="\&gt;" replacement="ඝ"/>
+</inputmethod>

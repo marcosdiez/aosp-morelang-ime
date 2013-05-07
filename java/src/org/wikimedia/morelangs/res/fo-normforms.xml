@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<inputmethod id="fo-normforms" name="Føroyskt" description="Faroese input method with most common form transliterated" author="John Erling Blad" version="1.0" contextLength="1" maxKeyLength="3">
+  <pattern input="&apos;a" replacement="á"/>
+  <pattern input="&apos;A" replacement="Á"/>
+  <pattern input="&apos;i" replacement="í"/>
+  <pattern input="&apos;I" replacement="Í"/>
+  <pattern input="&apos;o" replacement="ó"/>
+  <pattern input="&apos;O" replacement="Ó"/>
+  <pattern input="&apos;u" replacement="ú"/>
+  <pattern input="&apos;U" replacement="Ú"/>
+  <pattern input="&apos;y" replacement="ý"/>
+  <pattern input="&apos;Y" replacement="Ý"/>
+  <pattern input="~d" replacement="ð"/>
+  <pattern input="~D" replacement="Ð"/>
+  <pattern input="~o" replacement="ö"/>
+  <pattern input="~O" replacement="Ö"/>
+  <pattern input="aa" replacement="å"/>
+  <pattern input="AA" replacement="Å"/>
+  <pattern input="Aa" replacement="Å"/>
+  <pattern input="ae" replacement="æ"/>
+  <pattern input="AE" replacement="Æ"/>
+  <pattern input="Ae" replacement="Æ"/>
+  <pattern input="oe" replacement="ø"/>
+  <pattern input="OE" replacement="Ø"/>
+  <pattern input="Oe" replacement="Ø"/>
+  <pattern input="åa" context="a" replacement="aa"/>
+  <pattern input="ÅA" context="A" replacement="AA"/>
+  <pattern input="Åa" context="A" replacement="Aa"/>
+  <pattern input="åA" context="a" replacement="aA"/>
+  <pattern input="æe" context="e" replacement="ae"/>
+  <pattern input="ÆE" context="E" replacement="AE"/>
+  <pattern input="Æe" context="E" replacement="Ae"/>
+  <pattern input="æE" context="e" replacement="aE"/>
+  <pattern input="øe" context="e" replacement="oe"/>
+  <pattern input="ØE" context="E" replacement="OE"/>
+  <pattern input="Øe" context="E" replacement="Oe"/>
+  <pattern input="øE" context="e" replacement="oE"/>
+</inputmethod>

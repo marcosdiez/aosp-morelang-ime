@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<inputmethod id="te-inscript" name="ఇన్‍స్క్రిప్ట్" description="Inscript keyboard for Telugu script" author="Veeven" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="X" replacement="ॐ" altGr="true"/>
+  <pattern input="\;" replacement="ౘ" altGr="true"/>
+  <pattern input="p" replacement="ౙ" altGr="true"/>
+  <pattern input="f" replacement="ౢ" altGr="true"/>
+  <pattern input="r" replacement="ౣ" altGr="true"/>
+  <pattern input="F" replacement="ఌ" altGr="true"/>
+  <pattern input="R" replacement="ౡ" altGr="true"/>
+  <pattern input="\." replacement="॥" altGr="true"/>
+  <pattern input="\&gt;" replacement="ఽ" altGr="true"/>
+  <pattern input="2" replacement="‌" altGr="true"/>
+  <pattern input="4" replacement="₹" altGr="true"/>
+  <pattern input="\=" replacement="ౄ" altGr="true"/>
+  <pattern input="\+" replacement="ౠ" altGr="true"/>
+  <pattern input="D" replacement="అ"/>
+  <pattern input="E" replacement="ఆ"/>
+  <pattern input="F" replacement="ఇ"/>
+  <pattern input="R" replacement="ఈ"/>
+  <pattern input="G" replacement="ఉ"/>
+  <pattern input="T" replacement="ఊ"/>
+  <pattern input="\+" replacement="ఋ"/>
+  <pattern input="Z" replacement="ఎ"/>
+  <pattern input="S" replacement="ఏ"/>
+  <pattern input="W" replacement="ఐ"/>
+  <pattern input="~" replacement="ఒ"/>
+  <pattern input="A" replacement="ఓ"/>
+  <pattern input="Q" replacement="ఔ"/>
+  <pattern input="k" replacement="క"/>
+  <pattern input="K" replacement="ఖ"/>
+  <pattern input="i" replacement="గ"/>
+  <pattern input="I" replacement="ఘ"/>
+  <pattern input="U" replacement="ఙ"/>
+  <pattern input="\;" replacement="చ"/>
+  <pattern input="\:" replacement="ఛ"/>
+  <pattern input="p" replacement="జ"/>
+  <pattern input="P" replacement="ఝ"/>
+  <pattern input="\}" replacement="ఞ"/>
+  <pattern input="&apos;" replacement="ట"/>
+  <pattern input="&quot;" replacement="ఠ"/>
+  <pattern input="\[" context="" replacement="డ"/>
+  <pattern input="\{" context="" replacement="ఢ"/>
+  <pattern input="C" replacement="ణ"/>
+  <pattern input="l" replacement="త"/>
+  <pattern input="L" replacement="థ"/>
+  <pattern input="o" replacement="ద"/>
+  <pattern input="O" replacement="ధ"/>
+  <pattern input="v" replacement="న"/>
+  <pattern input="h" replacement="ప"/>
+  <pattern input="H" replacement="ఫ"/>
+  <pattern input="y" replacement="బ"/>
+  <pattern input="Y" replacement="భ"/>
+  <pattern input="c" replacement="మ"/>
+  <pattern input="/" replacement="య"/>
+  <pattern input="j" replacement="ర"/>
+  <pattern input="J" replacement="ఱ"/>
+  <pattern input="n" replacement="ల"/>
+  <pattern input="N" replacement="ళ"/>
+  <pattern input="b" replacement="వ"/>
+  <pattern input="M" replacement="శ"/>
+  <pattern input="\&lt;" context="" replacement="ష"/>
+  <pattern input="m" replacement="స"/>
+  <pattern input="u" replacement="హ"/>
+  <pattern input="e" replacement="ా"/>
+  <pattern input="f" replacement="ి"/>
+  <pattern input="r" replacement="ీ"/>
+  <pattern input="g" replacement="ు"/>
+  <pattern input="t" replacement="ూ"/>
+  <pattern input="\=" replacement="ృ"/>
+  <pattern input="z" replacement="ె"/>
+  <pattern input="s" replacement="ే"/>
+  <pattern input="w" replacement="ై"/>
+  <pattern input="`" replacement="ొ"/>
+  <pattern input="a" replacement="ో"/>
+  <pattern input="q" replacement="ౌ"/>
+  <pattern input="x" replacement="ం"/>
+  <pattern input="\-" replacement="ః"/>
+  <pattern input="X" replacement="ఁ"/>
+  <pattern input="d" replacement="్"/>
+  <pattern input="0" context="" replacement="౦"/>
+  <pattern input="1" context="" replacement="౧"/>
+  <pattern input="2" replacement="౨"/>
+  <pattern input="3" replacement="౩"/>
+  <pattern input="4" replacement="౪"/>
+  <pattern input="5" replacement="౫"/>
+  <pattern input="6" replacement="౬"/>
+  <pattern input="7" replacement="౭"/>
+  <pattern input="8" replacement="౮"/>
+  <pattern input="9" replacement="౯"/>
+  <pattern input="\@" replacement="‌"/>
+  <pattern input="\#" replacement="్ర"/>
+  <pattern input="\$" replacement="ర్"/>
+  <pattern input="\%" replacement="జ్ఞ"/>
+  <pattern input="\^" replacement="త్ర"/>
+  <pattern input="\&amp;" replacement="క్ష"/>
+  <pattern input="\*" replacement="శ్ర"/>
+  <pattern input="\&gt;" replacement="।"/>
+</inputmethod>

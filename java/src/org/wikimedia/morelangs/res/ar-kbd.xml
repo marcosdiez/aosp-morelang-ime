@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<inputmethod id="ar-kbd" name="kbd" description="Arabic keyboard layout" author="Parag Nemade" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="," replacement="&gt;" altGr="true"/>
+  <pattern input="\." replacement="&lt;" altGr="true"/>
+  <pattern input="\[" replacement="]" altGr="true"/>
+  <pattern input="\]" replacement="[" altGr="true"/>
+  <pattern input="J" replacement="‍" altGr="true"/>
+  <pattern input="L" replacement="‎" altGr="true"/>
+  <pattern input="N" replacement="‌" altGr="true"/>
+  <pattern input="R" replacement="‏" altGr="true"/>
+  <pattern input="\{" replacement="}" altGr="true"/>
+  <pattern input="\}" replacement="{" altGr="true"/>
+  <pattern input="1" replacement="١"/>
+  <pattern input="2" replacement="٢"/>
+  <pattern input="3" replacement="٣"/>
+  <pattern input="4" replacement="٤"/>
+  <pattern input="5" replacement="٥"/>
+  <pattern input="6" replacement="٦"/>
+  <pattern input="7" replacement="٧"/>
+  <pattern input="8" replacement="٨"/>
+  <pattern input="9" replacement="٩"/>
+  <pattern input="0" replacement="٠"/>
+  <pattern input="`" replacement="ذ"/>
+  <pattern input="q" replacement="ض"/>
+  <pattern input="w" replacement="ص"/>
+  <pattern input="e" replacement="ث"/>
+  <pattern input="r" replacement="ق"/>
+  <pattern input="t" replacement="ف"/>
+  <pattern input="y" replacement="غ"/>
+  <pattern input="u" replacement="ع"/>
+  <pattern input="i" replacement="ه"/>
+  <pattern input="o" replacement="خ"/>
+  <pattern input="p" replacement="ح"/>
+  <pattern input="\[" replacement="ج"/>
+  <pattern input="\]" replacement="د"/>
+  <pattern input="a" replacement="ش"/>
+  <pattern input="s" replacement="س"/>
+  <pattern input="d" replacement="ي"/>
+  <pattern input="f" replacement="ب"/>
+  <pattern input="g" replacement="ل"/>
+  <pattern input="h" replacement="ا"/>
+  <pattern input="j" replacement="ت"/>
+  <pattern input="k" replacement="ن"/>
+  <pattern input="l" replacement="م"/>
+  <pattern input=";" replacement="ك"/>
+  <pattern input="&apos;" replacement="ط"/>
+  <pattern input="z" replacement="ئ"/>
+  <pattern input="x" replacement="ء"/>
+  <pattern input="c" replacement="ؤ"/>
+  <pattern input="v" replacement="ر"/>
+  <pattern input="b" replacement="لا"/>
+  <pattern input="n" replacement="ى"/>
+  <pattern input="m" replacement="ة"/>
+  <pattern input="," replacement="و"/>
+  <pattern input="\." replacement="ز"/>
+  <pattern input="/" replacement="ظ"/>
+  <pattern input="\(" replacement=")"/>
+  <pattern input="\)" replacement="("/>
+  <pattern input="\~" replacement="ّ"/>
+  <pattern input="Q" replacement="َ"/>
+  <pattern input="W" replacement="ً"/>
+  <pattern input="E" replacement="ُ"/>
+  <pattern input="R" replacement="ٌ"/>
+  <pattern input="T" replacement="لإ"/>
+  <pattern input="Y" replacement="إ"/>
+  <pattern input="U" replacement="`"/>
+  <pattern input="I" replacement="÷"/>
+  <pattern input="O" replacement="×"/>
+  <pattern input="P" replacement="؛"/>
+  <pattern input="\{" replacement="&gt;"/>
+  <pattern input="\}" replacement="&lt;"/>
+  <pattern input="A" replacement="ِ"/>
+  <pattern input="S" replacement="ٍ"/>
+  <pattern input="D" replacement="]"/>
+  <pattern input="F" replacement="["/>
+  <pattern input="G" replacement="لأ"/>
+  <pattern input="H" replacement="أ"/>
+  <pattern input="J" replacement="ـ"/>
+  <pattern input="K" replacement="،"/>
+  <pattern input="L" replacement="/"/>
+  <pattern input="Z" replacement="~"/>
+  <pattern input="X" replacement="ْ"/>
+  <pattern input="C" replacement="}"/>
+  <pattern input="V" replacement="{"/>
+  <pattern input="B" replacement="لآ"/>
+  <pattern input="N" replacement="آ"/>
+  <pattern input="M" replacement="&apos;"/>
+  <pattern input="\&lt;" replacement=","/>
+  <pattern input="\&gt;" replacement="."/>
+  <pattern input="\?" replacement="؟"/>
+</inputmethod>

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<inputmethod id="as-avro" name="অভ্ৰ" description="Assamese Avro layout based on Bengali Avro input method" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="2">
+  <pattern input="([ক-হড়ঢ়য়ৰ])্?ৰৰi" context="[^o`]" replacement="$1ৃ"/>
+  <pattern input="ৰৰi" context="[^o`]" replacement="ঋ"/>
+  <pattern input="(([ক-হড়ঢ়য়ৰ])|য়)o" context="[^o`]" replacement="$1"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])a" context="[^o`]" replacement="$1া"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])i" context="[^o`]" replacement="$1ি"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])I" context="[^o`]" replacement="$1ী"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])u" context="[^o`]" replacement="$1ু"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])U" context="[^o`]" replacement="$1ূ"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])o" context="[o`]" replacement="$1ু"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])e" context="[^o`]" replacement="$1ে"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])োI" context="[^o`]" replacement="$1ৈ"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])O" context="[^o`]" replacement="$1ো"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])োU" context="[^o`]" replacement="$1ৌ"/>
+  <pattern input="([কঙলষস])(k|K)" context="[^o`]" replacement="$1্ক"/>
+  <pattern input="([ঙদল])(g|G)" context="[^o`]" replacement="$1্গ"/>
+  <pattern input="গg" context="[^o`]" replacement="জ্ঞ"/>
+  <pattern input="([চশ])c" context="[^o`]" replacement="$1্চ"/>
+  <pattern input="([জঞব])j" context="[^o`]" replacement="$1্জ"/>
+  <pattern input="নj" context="[^o`]" replacement="ঞ্জ"/>
+  <pattern input="([কটণনপলষস])T" context="[^o`]" replacement="$1্ট"/>
+  <pattern input="([ডণনল])D" context="[^o`]" replacement="$1্ড"/>
+  <pattern input="([গষহ])N" context="[^o`]" replacement="$1্ণ"/>
+  <pattern input="([কতনপশসহ])t" context="[^o`]" replacement="$1্ত"/>
+  <pattern input="([দনব])d" context="[^o`]" replacement="$1্দ"/>
+  <pattern input="([গঘণতধনপমশসহ])n" context="[^o`]" replacement="$1্ন"/>
+  <pattern input="([পমলস])p" context="[^o`]" replacement="$1্প"/>
+  <pattern input="([বমল])b" context="[^o`]" replacement="$1্ব"/>
+  <pattern input="([দম])(v|V)" context="[^o`]" replacement="$1্ভ"/>
+  <pattern input="([কগঙটণতদধনমলশষসহ])m" context="[^o`]" replacement="$1্ম"/>
+  <pattern input="([ক-ঘচ-ঝট-যলশ-হড়ঢ়য়])r" context="[^o`]" replacement="$1্ৰ"/>
+  <pattern input="([কগপ-বমলশসহ])l" context="[^o`]" replacement="$1্ল"/>
+  <pattern input="([কনপ])s" context="[^o`]" replacement="$1্স"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])w" context="[^o`]" replacement="$1্ব"/>
+  <pattern input="([ক-হড়ঢ়য়ৰ])y" context="[^o`]" replacement="$1্য"/>
+  <pattern input="নc" context="[^o`]" replacement="ঞ্চ"/>
+  <pattern input="ত`" context="`" replacement="ৎ"/>
+  <pattern input="ক্ক(h|H)" context="[^o`]" replacement="ক্ষ"/>
+  <pattern input="কশ(h|H)" context="[^o`]" replacement="ক্ষ"/>
+  <pattern input="ৰৰk" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ক"/>
+  <pattern input="ৰৰg" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্গ"/>
+  <pattern input="ৰৰc" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্চ"/>
+  <pattern input="ৰৰj" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্জ"/>
+  <pattern input="ৰৰT" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ট"/>
+  <pattern input="ৰৰD" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ড"/>
+  <pattern input="ৰৰN" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ণ"/>
+  <pattern input="ৰৰt" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ত"/>
+  <pattern input="ৰৰd" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্দ"/>
+  <pattern input="ৰৰn" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ন"/>
+  <pattern input="ৰৰp" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্প"/>
+  <pattern input="ৰৰf" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ফ"/>
+  <pattern input="ৰৰb" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ব"/>
+  <pattern input="ৰৰv" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ভ"/>
+  <pattern input="ৰৰm" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ম"/>
+  <pattern input="ৰৰz" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্য"/>
+  <pattern input="ৰৰl" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ল"/>
+  <pattern input="ৰৰS" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্শ"/>
+  <pattern input="ৰৰs" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্স"/>
+  <pattern input="ৰৰh" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্হ"/>
+  <pattern input="ৰৰR" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্ড়"/>
+  <pattern input="ৰৰ(y|Y)" context="(o|a|i|I|u|U|e|O|OI|OU|rri)rr" replacement="র্য়"/>
+  <pattern input="শ(h|H)" context="S" replacement="ষ"/>
+  <pattern input="অo" context="[^`]" replacement="উ"/>
+  <pattern input="এe" context="[^o`]" replacement="ঈ"/>
+  <pattern input="কh" context="[^o`]" replacement="খ"/>
+  <pattern input="গh" context="[^o`]" replacement="ঘ"/>
+  <pattern input="ণg" context="[^o`]" replacement="ঙ"/>
+  <pattern input="চh" context="[^o`]" replacement="ছ"/>
+  <pattern input="জh" context="[^o`]" replacement="ঝ"/>
+  <pattern input="ণG" context="[^o`]" replacement="ঞ"/>
+  <pattern input="টh" context="[^o`]" replacement="ঠ"/>
+  <pattern input="ডh" context="[^o`]" replacement="ঢ"/>
+  <pattern input="তh" context="[^o`]" replacement="থ"/>
+  <pattern input="দh" context="[^o`]" replacement="ধ"/>
+  <pattern input="পh" context="[^o`]" replacement="ফ"/>
+  <pattern input="বh" context="[^o`]" replacement="ভ"/>
+  <pattern input="(সh)" context="[^o`]" replacement="শ"/>
+  <pattern input="ড়h" context="[^o`]" replacement="ঢ়"/>
+  <pattern input="ত্`" context="[^o`]" replacement="ৎ"/>
+  <pattern input="নg" context="[^o`]" replacement="ং"/>
+  <pattern input="ঃ`" context="[^o`]" replacement=":"/>
+  <pattern input="ৰৰi" context="[^o`]" replacement="ঋ"/>
+  <pattern input="ওI" context="[^o`]" replacement="ঐ"/>
+  <pattern input="ওU" context="[^o`]" replacement="ঔ"/>
+  <pattern input="(k|K)" replacement="ক"/>
+  <pattern input="(g|G)" replacement="গ"/>
+  <pattern input="(c|C)" replacement="চ"/>
+  <pattern input="j" replacement="জ"/>
+  <pattern input="T" replacement="ট"/>
+  <pattern input="D" replacement="ড"/>
+  <pattern input="N" replacement="ণ"/>
+  <pattern input="t" replacement="ত"/>
+  <pattern input="d" replacement="দ"/>
+  <pattern input="n" replacement="ন"/>
+  <pattern input="(p|P)" replacement="প"/>
+  <pattern input="f" replacement="ফ"/>
+  <pattern input="(b|B)" replacement="ব"/>
+  <pattern input="(v|V)" replacement="ভ"/>
+  <pattern input="(m|M)" replacement="ম"/>
+  <pattern input="z" replacement="য"/>
+  <pattern input="r" replacement="ৰ"/>
+  <pattern input="(l|L)" replacement="ল"/>
+  <pattern input="S" replacement="শ"/>
+  <pattern input="s" replacement="স"/>
+  <pattern input="(h|H)" replacement="হ"/>
+  <pattern input="R" replacement="ড়"/>
+  <pattern input="(y|Y)" replacement="য়"/>
+  <pattern input="Z" replacement="্য"/>
+  <pattern input="o" replacement="অ"/>
+  <pattern input="(a|A)" replacement="আ"/>
+  <pattern input="i" replacement="ই"/>
+  <pattern input="I" replacement="ঈ"/>
+  <pattern input="u" replacement="উ"/>
+  <pattern input="U" replacement="ঊ"/>
+  <pattern input="e" replacement="এ"/>
+  <pattern input="O" replacement="ও"/>
+  <pattern input="0" replacement="০"/>
+  <pattern input="1" replacement="১"/>
+  <pattern input="2" replacement="২"/>
+  <pattern input="3" replacement="৩"/>
+  <pattern input="4" replacement="৪"/>
+  <pattern input="5" replacement="৫"/>
+  <pattern input="6" replacement="৬"/>
+  <pattern input="7" replacement="৭"/>
+  <pattern input="8" replacement="৮"/>
+  <pattern input="9" replacement="৯"/>
+  <pattern input="\\\." replacement="."/>
+  <pattern input=",," replacement="্"/>
+  <pattern input="\:" replacement="ঃ"/>
+  <pattern input="\^" replacement="ঁ"/>
+  <pattern input="\." replacement="।"/>
+  <pattern input="\$" replacement="৳"/>
+  <pattern input="ঃ`" replacement=":"/>
+  <pattern input="`" replacement=""/>
+</inputmethod>

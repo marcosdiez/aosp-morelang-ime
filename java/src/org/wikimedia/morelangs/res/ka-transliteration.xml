@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<inputmethod id="ka-transliteration" name="ტრანსლიტერაცია" description="Georgian transliteration" author="Ioseb Dzmanashvili (http://www.code.ge), [[User:Hooman]], Srikanth L" version="1.0" contextLength="3" maxKeyLength="1">
+  <pattern input="\\([A-Za-z|\~|\`])" context="\\" replacement="$1"/>
+  <pattern input="`" replacement="„"/>
+  <pattern input="~" replacement="“"/>
+  <pattern input="q" replacement="ქ"/>
+  <pattern input="w" replacement="წ"/>
+  <pattern input="e" replacement="ე"/>
+  <pattern input="r" replacement="რ"/>
+  <pattern input="t" replacement="ტ"/>
+  <pattern input="y" replacement="ყ"/>
+  <pattern input="u" replacement="უ"/>
+  <pattern input="i" replacement="ი"/>
+  <pattern input="o" replacement="ო"/>
+  <pattern input="p" replacement="პ"/>
+  <pattern input="a" replacement="ა"/>
+  <pattern input="s" replacement="ს"/>
+  <pattern input="d" replacement="დ"/>
+  <pattern input="f" replacement="ფ"/>
+  <pattern input="g" replacement="გ"/>
+  <pattern input="h" replacement="ჰ"/>
+  <pattern input="j" replacement="ჯ"/>
+  <pattern input="k" replacement="კ"/>
+  <pattern input="l" replacement="ლ"/>
+  <pattern input="z" replacement="ზ"/>
+  <pattern input="x" replacement="ხ"/>
+  <pattern input="c" replacement="ც"/>
+  <pattern input="v" replacement="ვ"/>
+  <pattern input="b" replacement="ბ"/>
+  <pattern input="n" replacement="ნ"/>
+  <pattern input="m" replacement="მ"/>
+  <pattern input="W" replacement="ჭ"/>
+  <pattern input="R" replacement="ღ"/>
+  <pattern input="T" replacement="თ"/>
+  <pattern input="S" replacement="შ"/>
+  <pattern input="J" replacement="ჟ"/>
+  <pattern input="Z" replacement="ძ"/>
+  <pattern input="C" replacement="ჩ"/>
+</inputmethod>

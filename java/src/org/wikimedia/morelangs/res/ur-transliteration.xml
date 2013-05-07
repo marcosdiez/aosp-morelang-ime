@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<inputmethod id="ur-transliteration" name="Urdu Transliteration" description="Urdu Transliteration based on RTS" author="Mohammed Imran Tabani" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="x" replacement="ف"/>
+  <pattern input="_" replacement="_"/>
+  <pattern input="D" replacement="ڑ"/>
+  <pattern input="E" replacement="ذ"/>
+  <pattern input="F" replacement="ں"/>
+  <pattern input="R" replacement="ڈ"/>
+  <pattern input="G" replacement="ۂ"/>
+  <pattern input="T" replacement="ث"/>
+  <pattern input="\+" replacement="+"/>
+  <pattern input="S" replacement="ز"/>
+  <pattern input="W" replacement="ض"/>
+  <pattern input="A" replacement="ژ"/>
+  <pattern input="Q" replacement="ظ"/>
+  <pattern input="k" replacement="ک"/>
+  <pattern input="K" replacement="گ"/>
+  <pattern input="i" replacement="ب"/>
+  <pattern input="I" replacement="ـ"/>
+  <pattern input="U" replacement="ۃ"/>
+  <pattern input="\;" replacement="؛"/>
+  <pattern input="\:" replacement=":"/>
+  <pattern input="p" replacement="ح"/>
+  <pattern input="P" replacement="خ"/>
+  <pattern input="\}" replacement="{"/>
+  <pattern input="&apos;" replacement="&apos;"/>
+  <pattern input="&quot;" replacement="&quot;"/>
+  <pattern input="\[" replacement="]"/>
+  <pattern input="\{" replacement="{"/>
+  <pattern input="C" replacement="ۓ"/>
+  <pattern input="l" replacement="ی"/>
+  <pattern input="L" replacement="ي"/>
+  <pattern input="o" replacement="ج"/>
+  <pattern input="O" replacement="چ"/>
+  <pattern input="v" replacement="س"/>
+  <pattern input="h" replacement="ہ"/>
+  <pattern input="H" replacement="ء"/>
+  <pattern input="y" replacement="پ"/>
+  <pattern input="Y" replacement="ّ­"/>
+  <pattern input="c" replacement="ے"/>
+  <pattern input="\?" replacement="؟"/>
+  <pattern input="j" replacement="ا"/>
+  <pattern input="n" replacement="غ"/>
+  <pattern input="N" replacement="ئ"/>
+  <pattern input="b" replacement="ش"/>
+  <pattern input="\&lt;" context="" replacement="&gt;"/>
+  <pattern input="m" replacement="ع"/>
+  <pattern input="u" replacement="ت"/>
+  <pattern input="\]" context="" replacement="["/>
+  <pattern input="e" replacement="ھ"/>
+  <pattern input="f" replacement="ن"/>
+  <pattern input="r" replacement="د"/>
+  <pattern input="g" replacement="ل"/>
+  <pattern input="t" replacement="ٹ"/>
+  <pattern input="\=" context="" replacement="="/>
+  <pattern input="\\" replacement="\"/>
+  <pattern input="s" replacement="و"/>
+  <pattern input="w" replacement="ص"/>
+  <pattern input="a" replacement="م"/>
+  <pattern input="q" replacement="ط"/>
+  <pattern input="d" replacement="ر"/>
+  <pattern input="\|" replacement="|"/>
+  <pattern input="/" replacement="/"/>
+  <pattern input="\&gt;" replacement="&lt;"/>
+  <pattern input="0" replacement="0"/>
+  <pattern input="1" replacement="1"/>
+  <pattern input="2" replacement="2"/>
+  <pattern input="3" replacement="3"/>
+  <pattern input="4" replacement="4"/>
+  <pattern input="5" replacement="5"/>
+  <pattern input="6" replacement="6"/>
+  <pattern input="7" replacement="7"/>
+  <pattern input="8" replacement="8"/>
+  <pattern input="9" replacement="9"/>
+  <pattern input="\@" replacement="@"/>
+  <pattern input="\#" context="" replacement="#"/>
+  <pattern input="\$" context="" replacement="$"/>
+  <pattern input="\%" context="" replacement="٪"/>
+  <pattern input="\^" context="" replacement="^"/>
+  <pattern input="\&amp;" replacement="ۖ"/>
+  <pattern input="\*" replacement="٭"/>
+  <pattern input="\(" replacement="("/>
+  <pattern input="\)" replacement=")"/>
+</inputmethod>

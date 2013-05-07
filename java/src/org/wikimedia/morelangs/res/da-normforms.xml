@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<inputmethod id="da-normforms" name="Dansk" description="Danish input method with most common form transliterated" author="John Erling Blad" version="1.0" contextLength="1" maxKeyLength="3">
+  <pattern input="aa" replacement="å"/>
+  <pattern input="AA" replacement="Å"/>
+  <pattern input="Aa" replacement="Å"/>
+  <pattern input="ae" replacement="æ"/>
+  <pattern input="AE" replacement="Æ"/>
+  <pattern input="Ae" replacement="Æ"/>
+  <pattern input="oe" replacement="ø"/>
+  <pattern input="OE" replacement="Ø"/>
+  <pattern input="Oe" replacement="Ø"/>
+  <pattern input="åa" context="a" replacement="aa"/>
+  <pattern input="ÅA" context="A" replacement="AA"/>
+  <pattern input="Åa" context="A" replacement="Aa"/>
+  <pattern input="åA" context="a" replacement="aA"/>
+  <pattern input="æe" context="e" replacement="ae"/>
+  <pattern input="ÆE" context="E" replacement="AE"/>
+  <pattern input="Æe" context="E" replacement="Ae"/>
+  <pattern input="æE" context="e" replacement="aE"/>
+  <pattern input="øe" context="e" replacement="oe"/>
+  <pattern input="ØE" context="E" replacement="OE"/>
+  <pattern input="Øe" context="E" replacement="Oe"/>
+  <pattern input="øE" context="e" replacement="oE"/>
+</inputmethod>

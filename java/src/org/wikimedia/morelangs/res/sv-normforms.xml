@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<inputmethod id="sv-normforms" name="Svenska" description="Swedish input method with most common form transliterated" author="John Erling Blad" version="1.0" contextLength="1" maxKeyLength="3">
+  <pattern input="aa" replacement="å"/>
+  <pattern input="AA" replacement="Å"/>
+  <pattern input="Aa" replacement="Å"/>
+  <pattern input="ae" replacement="ä"/>
+  <pattern input="AE" replacement="Ä"/>
+  <pattern input="Ae" replacement="Ä"/>
+  <pattern input="oe" replacement="ö"/>
+  <pattern input="OE" replacement="Ö"/>
+  <pattern input="Oe" replacement="Ö"/>
+  <pattern input="åa" context="a" replacement="aa"/>
+  <pattern input="ÅA" context="A" replacement="AA"/>
+  <pattern input="Åa" context="A" replacement="Aa"/>
+  <pattern input="åA" context="a" replacement="aA"/>
+  <pattern input="äe" context="e" replacement="ae"/>
+  <pattern input="ÄE" context="E" replacement="AE"/>
+  <pattern input="Äe" context="E" replacement="Ae"/>
+  <pattern input="äE" context="e" replacement="aE"/>
+  <pattern input="öe" context="e" replacement="oe"/>
+  <pattern input="ÖE" context="E" replacement="OE"/>
+  <pattern input="Öe" context="E" replacement="Oe"/>
+  <pattern input="öE" context="e" replacement="oE"/>
+</inputmethod>

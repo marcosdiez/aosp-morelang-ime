@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<inputmethod id="or-inscript" name="Odiya InScript" description="InScript keyboard for Odiya script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="F" replacement="ଌ" altGr="true"/>
+  <pattern input="b" replacement="ଵ" altGr="true"/>
+  <pattern input="\&gt;" replacement="ଽ" altGr="true"/>
+  <pattern input="\=" replacement="ୄ" altGr="true"/>
+  <pattern input="\[" replacement="ଡ଼" altGr="true"/>
+  <pattern input="\{" replacement="ଢ଼" altGr="true"/>
+  <pattern input="\+" replacement="ୠ" altGr="true"/>
+  <pattern input="R" replacement="ୡ" altGr="true"/>
+  <pattern input="f" replacement="ୢ" altGr="true"/>
+  <pattern input="r" replacement="ୣ" altGr="true"/>
+  <pattern input="\." replacement="୥" altGr="true"/>
+  <pattern input="x" replacement="୰" altGr="true"/>
+  <pattern input="\$" replacement="₹" altGr="true"/>
+  <pattern input="X" replacement="ଁ"/>
+  <pattern input="x" replacement="ଂ"/>
+  <pattern input="_" replacement="ଃ"/>
+  <pattern input="D" replacement="ଅ"/>
+  <pattern input="E" replacement="ଆ"/>
+  <pattern input="F" replacement="ଇ"/>
+  <pattern input="R" replacement="ଈ"/>
+  <pattern input="G" replacement="ଉ"/>
+  <pattern input="T" replacement="ଊ"/>
+  <pattern input="\+" replacement="ଋ"/>
+  <pattern input="S" replacement="ଏ"/>
+  <pattern input="W" replacement="ଐ"/>
+  <pattern input="A" replacement="ଓ"/>
+  <pattern input="Q" replacement="ଔ"/>
+  <pattern input="k" replacement="କ"/>
+  <pattern input="K" replacement="ଖ"/>
+  <pattern input="i" replacement="ଗ"/>
+  <pattern input="I" replacement="ଘ"/>
+  <pattern input="U" replacement="ଙ"/>
+  <pattern input=";" replacement="ଚ"/>
+  <pattern input="\:" replacement="ଛ"/>
+  <pattern input="p" replacement="ଜ"/>
+  <pattern input="P" replacement="ଝ"/>
+  <pattern input="\}" replacement="ଞ"/>
+  <pattern input="`" replacement="ଟ"/>
+  <pattern input="~" replacement="ଠ"/>
+  <pattern input="\[" replacement="ଡ"/>
+  <pattern input="\{" replacement="ଢ"/>
+  <pattern input="C" replacement="ଣ"/>
+  <pattern input="l" replacement="ତ"/>
+  <pattern input="L" replacement="ଥ"/>
+  <pattern input="o" replacement="ଦ"/>
+  <pattern input="O" replacement="ଧ"/>
+  <pattern input="v" replacement="ନ"/>
+  <pattern input="h" replacement="ପ"/>
+  <pattern input="H" replacement="ଫ"/>
+  <pattern input="y" replacement="ବ"/>
+  <pattern input="Y" replacement="ଭ"/>
+  <pattern input="c" replacement="ମ"/>
+  <pattern input="\?" replacement="ଯ"/>
+  <pattern input="j" replacement="ର"/>
+  <pattern input="n" replacement="ଲ"/>
+  <pattern input="N" replacement="ଳ"/>
+  <pattern input="M" replacement="ଶ"/>
+  <pattern input="\&lt;" replacement="ଷ"/>
+  <pattern input="m" replacement="ସ"/>
+  <pattern input="u" replacement="ହ"/>
+  <pattern input="\]" replacement="଼"/>
+  <pattern input="e" replacement="ା"/>
+  <pattern input="f" replacement="ି"/>
+  <pattern input="r" replacement="ୀ"/>
+  <pattern input="g" replacement="ୁ"/>
+  <pattern input="t" replacement="ୂ"/>
+  <pattern input="\=" replacement="ୃ"/>
+  <pattern input="s" replacement="େ"/>
+  <pattern input="w" replacement="ୈ"/>
+  <pattern input="a" replacement="ୋ"/>
+  <pattern input="q" replacement="ୌ"/>
+  <pattern input="d" replacement="୍"/>
+  <pattern input="/" replacement="ୟ"/>
+  <pattern input="\&gt;" replacement="୤"/>
+  <pattern input="0" replacement="୦"/>
+  <pattern input="1" replacement="୧"/>
+  <pattern input="2" replacement="୨"/>
+  <pattern input="3" replacement="୩"/>
+  <pattern input="4" replacement="୪"/>
+  <pattern input="5" replacement="୫"/>
+  <pattern input="6" replacement="୬"/>
+  <pattern input="7" replacement="୭"/>
+  <pattern input="8" replacement="୮"/>
+  <pattern input="9" replacement="୯"/>
+  <pattern input="b" replacement="ୱ"/>
+  <pattern input="\(" replacement="‍"/>
+  <pattern input="\)" replacement="‌"/>
+</inputmethod>

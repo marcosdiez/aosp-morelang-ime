@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<inputmethod id="de" name="Deutsch" description="German input method" author="Erik Moeller" version="1.0" contextLength="1" maxKeyLength="1">
+  <pattern input="~A" replacement="Ä"/>
+  <pattern input="~O" replacement="Ö"/>
+  <pattern input="~U" replacement="Ü"/>
+  <pattern input="~a" replacement="ä"/>
+  <pattern input="~o" replacement="ö"/>
+  <pattern input="~u" replacement="ü"/>
+  <pattern input="~s" replacement="ß"/>
+  <pattern input="~S" replacement="ß"/>
+</inputmethod>

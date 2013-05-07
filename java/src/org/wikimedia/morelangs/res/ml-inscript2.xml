@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<inputmethod id="ml-inscript2" name="ഇൻസ്ക്രിപ്റ്റ് 2" description="Enhanced InScript for Malayalam InScript" author="Parag Nemade" version="1.0" contextLength="0" maxKeyLength="2">
+  <pattern input="1" replacement="‍" altGr="true"/>
+  <pattern input="\!" replacement="൰" altGr="true"/>
+  <pattern input="2" replacement="‌" altGr="true"/>
+  <pattern input="\@" replacement="൱" altGr="true"/>
+  <pattern input="\#" replacement="൲" altGr="true"/>
+  <pattern input="\$" replacement="൳" altGr="true"/>
+  <pattern input="4" replacement="₹" altGr="true"/>
+  <pattern input="\%" replacement="൴" altGr="true"/>
+  <pattern input="\^" replacement="൵" altGr="true"/>
+  <pattern input="\+" replacement="ൠ" altGr="true"/>
+  <pattern input="\=" replacement="ൄ" altGr="true"/>
+  <pattern input="q" replacement="ൌ" altGr="true"/>
+  <pattern input="R" replacement="ൡ" altGr="true"/>
+  <pattern input="r" replacement="ൣ" altGr="true"/>
+  <pattern input="F" replacement="ഌ" altGr="true"/>
+  <pattern input="f" replacement="ൢ" altGr="true"/>
+  <pattern input="j" replacement="ർ" altGr="true"/>
+  <pattern input="k" replacement="ൿ" altGr="true"/>
+  <pattern input="c" replacement="ൺ" altGr="true"/>
+  <pattern input="v" replacement="൹" altGr="true"/>
+  <pattern input="N" replacement="ൾ" altGr="true"/>
+  <pattern input="n" replacement="ൽ" altGr="true"/>
+  <pattern input="\&gt;" replacement="ഽ" altGr="true"/>
+  <pattern input="\." replacement="॥" altGr="true"/>
+  <pattern input="1" replacement="൧"/>
+  <pattern input="2" replacement="൨"/>
+  <pattern input="3" replacement="൩"/>
+  <pattern input="\#" replacement="്ര"/>
+  <pattern input="4" replacement="൪"/>
+  <pattern input="5" replacement="൫"/>
+  <pattern input="6" replacement="൬"/>
+  <pattern input="7" replacement="൭"/>
+  <pattern input="\&amp;" replacement="ക്ഷ"/>
+  <pattern input="8" replacement="൮"/>
+  <pattern input="\*" replacement="ൾ"/>
+  <pattern input="\(" replacement="("/>
+  <pattern input="9" replacement="൯"/>
+  <pattern input="\)" replacement=")"/>
+  <pattern input="0" replacement="൦"/>
+  <pattern input="\_" replacement="ഃ"/>
+  <pattern input="\-" replacement="-"/>
+  <pattern input="\+" replacement="ഋ"/>
+  <pattern input="\=" replacement="ൃ"/>
+  <pattern input="Q" replacement="ഔ"/>
+  <pattern input="q" replacement="ൗ"/>
+  <pattern input="W" replacement="ഐ"/>
+  <pattern input="w" replacement="ൈ"/>
+  <pattern input="E" replacement="ആ"/>
+  <pattern input="e" replacement="ാ"/>
+  <pattern input="R" replacement="ഈ"/>
+  <pattern input="r" replacement="ീ"/>
+  <pattern input="T" replacement="ഊ"/>
+  <pattern input="t" replacement="ൂ"/>
+  <pattern input="Y" replacement="ഭ"/>
+  <pattern input="y" replacement="ബ"/>
+  <pattern input="U" replacement="ങ"/>
+  <pattern input="u" replacement="ഹ"/>
+  <pattern input="I" replacement="ഘ"/>
+  <pattern input="i" replacement="ഗ"/>
+  <pattern input="O" replacement="ധ"/>
+  <pattern input="o" replacement="ദ"/>
+  <pattern input="P" replacement="ഝ"/>
+  <pattern input="p" replacement="ജ"/>
+  <pattern input="\{" replacement="ഢ"/>
+  <pattern input="\[" replacement="ഡ"/>
+  <pattern input="\}" replacement="ഞ"/>
+  <pattern input="\\" replacement="ർ"/>
+  <pattern input="A" replacement="ഓ"/>
+  <pattern input="a" replacement="ോ"/>
+  <pattern input="S" replacement="ഏ"/>
+  <pattern input="s" replacement="േ"/>
+  <pattern input="D" replacement="അ"/>
+  <pattern input="d" replacement="്"/>
+  <pattern input="F" replacement="ഇ"/>
+  <pattern input="f" replacement="ി"/>
+  <pattern input="G" replacement="ഉ"/>
+  <pattern input="g" replacement="ു"/>
+  <pattern input="H" replacement="ഫ"/>
+  <pattern input="h" replacement="പ"/>
+  <pattern input="J" replacement="റ"/>
+  <pattern input="j" replacement="ര"/>
+  <pattern input="K" replacement="ഖ"/>
+  <pattern input="k" replacement="ക"/>
+  <pattern input="L" replacement="ഥ"/>
+  <pattern input="l" replacement="ത"/>
+  <pattern input=":" replacement="ഛ"/>
+  <pattern input=";" replacement="ച"/>
+  <pattern input="&quot;" replacement="ഠ"/>
+  <pattern input="\&apos;" replacement="ട"/>
+  <pattern input="\~" replacement="ഒ"/>
+  <pattern input="\`" replacement="ൊ"/>
+  <pattern input="Z" replacement="എ"/>
+  <pattern input="z" replacement="െ"/>
+  <pattern input="X" replacement="ൺ"/>
+  <pattern input="x" replacement="ം"/>
+  <pattern input="C" replacement="ണ"/>
+  <pattern input="c" replacement="മ"/>
+  <pattern input="V" replacement="ൻ"/>
+  <pattern input="v" replacement="ന"/>
+  <pattern input="B" replacement="ഴ"/>
+  <pattern input="b" replacement="വ"/>
+  <pattern input="N" replacement="ള"/>
+  <pattern input="n" replacement="ല"/>
+  <pattern input="M" replacement="ശ"/>
+  <pattern input="m" replacement="സ"/>
+  <pattern input="\&lt;" replacement="ഷ"/>
+  <pattern input="," replacement=","/>
+  <pattern input="\&gt;" replacement="ൽ"/>
+  <pattern input="\." replacement="."/>
+  <pattern input="/" replacement="യ"/>
+</inputmethod>

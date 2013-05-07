@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<inputmethod id="as-inscript" name="ইন্‌স্ক্ৰিপ্ত" description="InScript input method for Assamese according to CDAC&apos;s Enhanced InScript Keyboard Layout 5.2" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="0">
+  <pattern input="F" replacement="ঌ" altGr="true"/>
+  <pattern input="\&gt;" replacement="ঽ" altGr="true"/>
+  <pattern input="\=" replacement="ৠ" altGr="true"/>
+  <pattern input="l" replacement="ৎ" altGr="true"/>
+  <pattern input="\[" replacement="ড়" altGr="true"/>
+  <pattern input="\{" replacement="ঢ়" altGr="true"/>
+  <pattern input="\+" replacement="ৠ" altGr="true"/>
+  <pattern input="R" replacement="ৡ" altGr="true"/>
+  <pattern input="f" replacement="ৢ" altGr="true"/>
+  <pattern input="r" replacement="ৣ" altGr="true"/>
+  <pattern input="\." replacement="৥" altGr="true"/>
+  <pattern input="x" replacement="৺" altGr="true"/>
+  <pattern input="\&lt;" replacement="৲" altGr="true"/>
+  <pattern input="," replacement="৳" altGr="true"/>
+  <pattern input="\!" replacement="৴" altGr="true"/>
+  <pattern input="\@" replacement="৵" altGr="true"/>
+  <pattern input="\#" replacement="৶" altGr="true"/>
+  <pattern input="\$" replacement="৷" altGr="true"/>
+  <pattern input="\%" replacement="৸" altGr="true"/>
+  <pattern input="\^" replacement="৹" altGr="true"/>
+  <pattern input="\?" replacement="৻" altGr="true"/>
+  <pattern input="4" replacement="₹" altGr="true"/>
+  <pattern input="X" replacement="ঁ"/>
+  <pattern input="x" replacement="ং"/>
+  <pattern input="_" replacement="ঃ"/>
+  <pattern input="D" replacement="অ"/>
+  <pattern input="E" replacement="আ"/>
+  <pattern input="F" replacement="ই"/>
+  <pattern input="R" replacement="ঈ"/>
+  <pattern input="G" replacement="উ"/>
+  <pattern input="T" replacement="ঊ"/>
+  <pattern input="\+" replacement="ঋ"/>
+  <pattern input="S" replacement="এ"/>
+  <pattern input="W" replacement="ঐ"/>
+  <pattern input="A" replacement="ও"/>
+  <pattern input="Q" replacement="ঔ"/>
+  <pattern input="k" replacement="ক"/>
+  <pattern input="K" replacement="খ"/>
+  <pattern input="i" replacement="গ"/>
+  <pattern input="I" replacement="ঘ"/>
+  <pattern input="U" replacement="ঙ"/>
+  <pattern input=";" replacement="চ"/>
+  <pattern input="\:" replacement="ছ"/>
+  <pattern input="p" replacement="জ"/>
+  <pattern input="P" replacement="ঝ"/>
+  <pattern input="\}" replacement="ঞ"/>
+  <pattern input="&apos;" replacement="ট"/>
+  <pattern input="&quot;" replacement="ঠ"/>
+  <pattern input="\[" replacement="ড"/>
+  <pattern input="\{" replacement="ঢ"/>
+  <pattern input="C" replacement="ণ"/>
+  <pattern input="l" replacement="ত"/>
+  <pattern input="L" replacement="থ"/>
+  <pattern input="o" replacement="দ"/>
+  <pattern input="O" replacement="ধ"/>
+  <pattern input="v" replacement="ন"/>
+  <pattern input="h" replacement="প"/>
+  <pattern input="H" replacement="ফ"/>
+  <pattern input="y" replacement="ব"/>
+  <pattern input="Y" replacement="ভ"/>
+  <pattern input="c" replacement="ম"/>
+  <pattern input="\?" replacement="য"/>
+  <pattern input="j" replacement="ৰ"/>
+  <pattern input="J" replacement="ৎ"/>
+  <pattern input="n" replacement="ল"/>
+  <pattern input="M" replacement="শ"/>
+  <pattern input="\&lt;" replacement="ষ"/>
+  <pattern input="m" replacement="স"/>
+  <pattern input="u" replacement="হ"/>
+  <pattern input="\]" replacement="়"/>
+  <pattern input="e" replacement="া"/>
+  <pattern input="f" replacement="ি"/>
+  <pattern input="r" replacement="ী"/>
+  <pattern input="g" replacement="ু"/>
+  <pattern input="t" replacement="ূ"/>
+  <pattern input="\=" replacement="ৃ"/>
+  <pattern input="s" replacement="ে"/>
+  <pattern input="w" replacement="ৈ"/>
+  <pattern input="a" replacement="ো"/>
+  <pattern input="q" replacement="ৌ"/>
+  <pattern input="d" replacement="্"/>
+  <pattern input="/" replacement="য়"/>
+  <pattern input="\&gt;" replacement="৤"/>
+  <pattern input="0" replacement="০"/>
+  <pattern input="1" replacement="১"/>
+  <pattern input="2" replacement="২"/>
+  <pattern input="3" replacement="৩"/>
+  <pattern input="4" replacement="৪"/>
+  <pattern input="5" replacement="৫"/>
+  <pattern input="6" replacement="৬"/>
+  <pattern input="7" replacement="৭"/>
+  <pattern input="8" replacement="৮"/>
+  <pattern input="9" replacement="৯"/>
+  <pattern input="z" replacement="ʼ"/>
+  <pattern input="\!" replacement="অ্যা"/>
+  <pattern input="\#" replacement="্ৰ"/>
+  <pattern input="\$" replacement="ৰ্"/>
+  <pattern input="\%" replacement="জ্ঞ"/>
+  <pattern input="\^" replacement="ত্র"/>
+  <pattern input="\&amp;" replacement="ক্ষ"/>
+  <pattern input="\*" replacement="শ্র"/>
+  <pattern input="\(" replacement="‍"/>
+  <pattern input="\)" replacement="‌"/>
+</inputmethod>

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<inputmethod id="pa-jhelum" name="Punjabi Jhelum" description="Jhelum keyboard for Punjabi script" author="Parag Nemade" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="1" replacement="੧" altGr="true"/>
+  <pattern input="2" replacement="੨" altGr="true"/>
+  <pattern input="3" replacement="੩" altGr="true"/>
+  <pattern input="4" replacement="੪" altGr="true"/>
+  <pattern input="5" replacement="੫" altGr="true"/>
+  <pattern input="6" replacement="੬" altGr="true"/>
+  <pattern input="7" replacement="੭" altGr="true"/>
+  <pattern input="8" replacement="੮" altGr="true"/>
+  <pattern input="9" replacement="੯" altGr="true"/>
+  <pattern input="0" replacement="੦" altGr="true"/>
+  <pattern input="y" replacement="੍ਰ" altGr="true"/>
+  <pattern input="i" replacement="ਗ਼" altGr="true"/>
+  <pattern input="P" replacement="ਫ਼" altGr="true"/>
+  <pattern input="h" replacement="੍ਹ" altGr="true"/>
+  <pattern input="j" replacement="ਜ਼" altGr="true"/>
+  <pattern input="K" replacement="ਖ਼" altGr="true"/>
+  <pattern input="l" replacement="ਲ਼" altGr="true"/>
+  <pattern input=";" replacement="ਸ਼" altGr="true"/>
+  <pattern input="\~" replacement="~"/>
+  <pattern input="\`" replacement="`"/>
+  <pattern input="\!" replacement="!"/>
+  <pattern input="1" replacement="1"/>
+  <pattern input="\@" replacement="@"/>
+  <pattern input="2" replacement="2"/>
+  <pattern input="\#" replacement="#"/>
+  <pattern input="3" replacement="3"/>
+  <pattern input="\$" replacement="$"/>
+  <pattern input="4" replacement="4"/>
+  <pattern input="\%" replacement="%"/>
+  <pattern input="5" replacement="5"/>
+  <pattern input="\^" replacement="ੳ"/>
+  <pattern input="6" replacement="6"/>
+  <pattern input="\&amp;" replacement="ੲ"/>
+  <pattern input="7" replacement="7"/>
+  <pattern input="8" replacement="8"/>
+  <pattern input="\(" replacement="("/>
+  <pattern input="9" replacement="9"/>
+  <pattern input="\)" replacement=")"/>
+  <pattern input="0" replacement="0"/>
+  <pattern input="\_" replacement="_"/>
+  <pattern input="\-" replacement="-"/>
+  <pattern input="\+" replacement="+"/>
+  <pattern input="\=" replacement="="/>
+  <pattern input="Q" replacement="ਔ"/>
+  <pattern input="q" replacement="ੌ"/>
+  <pattern input="W" replacement="ਐ"/>
+  <pattern input="w" replacement="ੈ"/>
+  <pattern input="E" replacement="ਆ"/>
+  <pattern input="e" replacement="ਾ"/>
+  <pattern input="R" replacement="ਈ"/>
+  <pattern input="r" replacement="ੀ"/>
+  <pattern input="T" replacement="ਊ"/>
+  <pattern input="t" replacement="ੂ"/>
+  <pattern input="Y" replacement="ੜ"/>
+  <pattern input="y" replacement="ਰ"/>
+  <pattern input="U" replacement="ਧ"/>
+  <pattern input="u" replacement="ਦ"/>
+  <pattern input="I" replacement="ਘ"/>
+  <pattern input="i" replacement="ਗ"/>
+  <pattern input="O" replacement="ਟ"/>
+  <pattern input="o" replacement="ਤ"/>
+  <pattern input="P" replacement="ਫ"/>
+  <pattern input="p" replacement="ਪ"/>
+  <pattern input="\{" replacement="ਢ"/>
+  <pattern input="\[" replacement="ਡ"/>
+  <pattern input="\}" replacement="ਞ"/>
+  <pattern input="\]" replacement="ਙ"/>
+  <pattern input="A" replacement="ਓ"/>
+  <pattern input="a" replacement="ੋ"/>
+  <pattern input="S" replacement="ਏ"/>
+  <pattern input="s" replacement="ੇ"/>
+  <pattern input="D" replacement="ਅ"/>
+  <pattern input="d" replacement="੍"/>
+  <pattern input="F" replacement="ਇ"/>
+  <pattern input="f" replacement="ਿ"/>
+  <pattern input="G" replacement="ਉ"/>
+  <pattern input="g" replacement="ੁ"/>
+  <pattern input="H" replacement="ਠ"/>
+  <pattern input="h" replacement="ਹ"/>
+  <pattern input="J" replacement="ਝ"/>
+  <pattern input="j" replacement="ਜ"/>
+  <pattern input="K" replacement="ਖ"/>
+  <pattern input="k" replacement="ਕ"/>
+  <pattern input="L" replacement="ਥ"/>
+  <pattern input="l" replacement="ਲ"/>
+  <pattern input=":" replacement=":"/>
+  <pattern input=";" replacement="ਸ"/>
+  <pattern input="&quot;" replacement="&quot;"/>
+  <pattern input="\&apos;" replacement="&apos;"/>
+  <pattern input="\|" replacement="।"/>
+  <pattern input="\" replacement="\"/>
+  <pattern input="Z" replacement="਼"/>
+  <pattern input="z" replacement="ੱ"/>
+  <pattern input="X" replacement="ੰ"/>
+  <pattern input="x" replacement="ਂ"/>
+  <pattern input="C" replacement="ਛ"/>
+  <pattern input="c" replacement="ਚ"/>
+  <pattern input="V" replacement="ਯ"/>
+  <pattern input="v" replacement="ਵ"/>
+  <pattern input="B" replacement="ਭ"/>
+  <pattern input="b" replacement="ਬ"/>
+  <pattern input="N" replacement="ਣ"/>
+  <pattern input="n" replacement="ਨ"/>
+  <pattern input="M" replacement="ਠ"/>
+  <pattern input="m" replacement="ਮ"/>
+  <pattern input="\&lt;" replacement="&lt;"/>
+  <pattern input="," replacement=","/>
+  <pattern input="\&gt;" replacement="&gt;"/>
+  <pattern input="\." replacement="."/>
+  <pattern input="\?" replacement="?"/>
+  <pattern input="/" replacement="/"/>
+  <pattern input="\*" replacement="*"/>
+</inputmethod>

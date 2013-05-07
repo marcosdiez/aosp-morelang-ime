@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<resources>
+  <string-array name="transliterate_inputmethod_names">
+    <item>None</item>
+    <item>अहिराणी - अक्षरांतरण</item>
+    <item>አማርኛ - Amharic Transliteration</item>
+    <item>অসমীয়া - প্ৰতিৰূপান্তৰণ</item>
+    <item>অসমীয়া - অভ্ৰ</item>
+    <item>অসমীয়া - বৰ্ণনা</item>
+    <item>English - International Phonetic Alphabet - SIL</item>
+    <item>Esperanto - Esperanto Transliteration</item>
+    <item>कोंकणी - लिप्यंतरण</item>
+    <item>हिन्दी - बोलनागरी</item>
+    <item>ಕನ್ನಡ - ಲಿಪ್ಯಂತರಣ</item>
+    <item>ಕನ್ನಡ - ಕಗಪ/ನುಡಿ</item>
+    <item>മലയാളം - ലിപ്യന്തരണം</item>
+    <item>नेपाली - लिप्यंतरण</item>
+    <item>ଓଡ଼ିଆ - Odiya Transliteration</item>
+    <item>ଓଡ଼ିଆ - Odia Lekhani</item>
+    <item>ਪੰਜਾਬੀ - Punjabi Transliteration</item>
+    <item>ਪੰਜਾਬੀ - Punjabi Phonetic</item>
+    <item>संस्कृत - Sanskrit Transliteration</item>
+    <item>සිංහල - Sinhalese Singlish</item>
+    <item>தமிழ் - எழுத்துப்பெயர்ப்பு</item>
+    <item>తెలుగు - లిప్యంతరీకరణ</item>
+  </string-array>
+  <string-array name="transliterate_inputmethod_values">
+    <item>
+      
+    </item>
+    <item>mr-transliteration</item>
+    <item>am-transliteration</item>
+    <item>as-transliteration</item>
+    <item>as-avro</item>
+    <item>as-bornona</item>
+    <item>ipa-sil</item>
+    <item>eo-transliteration</item>
+    <item>hi-transliteration</item>
+    <item>hi-bolnagri</item>
+    <item>kn-transliteration</item>
+    <item>kn-kgp</item>
+    <item>ml-transliteration</item>
+    <item>ne-transliteration</item>
+    <item>or-transliteration</item>
+    <item>or-lekhani</item>
+    <item>pa-transliteration</item>
+    <item>pa-phonetic</item>
+    <item>sa-transliteration</item>
+    <item>si-singlish</item>
+    <item>ta-transliteration</item>
+    <item>te-transliteration</item>
+  </string-array>
+</resources>

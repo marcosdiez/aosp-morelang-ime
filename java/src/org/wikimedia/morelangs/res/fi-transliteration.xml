@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<inputmethod id="fi-transliteration" name="translitterointi" description="Finnish transliteration" author="Niklas Laxström" version="1.0" contextLength="0" maxKeyLength="2">
+  <pattern input="e" replacement="€" altGr="true"/>
+  <pattern input="\.a" replacement="å"/>
+  <pattern input="\.A" replacement="Å"/>
+  <pattern input=":a" replacement="ä"/>
+  <pattern input=":A" replacement="Ä"/>
+  <pattern input=":o" replacement="ö"/>
+  <pattern input=":O" replacement="Ö"/>
+  <pattern input="shh" replacement="š"/>
+  <pattern input="Shh" replacement="Š"/>
+  <pattern input="\.e" replacement="€"/>
+</inputmethod>

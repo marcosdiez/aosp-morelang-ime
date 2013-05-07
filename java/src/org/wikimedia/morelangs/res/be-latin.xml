@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<inputmethod id="be-latin" name="Belarusian Łacinka" description="Belarusian Latin alphabet input method" author="Pavel Selitskas" version="1.0" contextLength="1" maxKeyLength="1">
+  <pattern input="=S" replacement="Š"/>
+  <pattern input="=U" replacement="Ŭ"/>
+  <pattern input="-S" replacement="Ś"/>
+  <pattern input="-L" replacement="Ł"/>
+  <pattern input="-Z" replacement="Ź"/>
+  <pattern input="=Z" replacement="Ž"/>
+  <pattern input="-C" replacement="Ć"/>
+  <pattern input="=C" replacement="Č"/>
+  <pattern input="-N" replacement="Ń"/>
+  <pattern input="=s" replacement="š"/>
+  <pattern input="=u" replacement="ŭ"/>
+  <pattern input="-s" replacement="ś"/>
+  <pattern input="-l" replacement="ł"/>
+  <pattern input="-z" replacement="ź"/>
+  <pattern input="=z" replacement="ž"/>
+  <pattern input="-c" replacement="ć"/>
+  <pattern input="=c" replacement="č"/>
+  <pattern input="-n" replacement="ń"/>
+</inputmethod>

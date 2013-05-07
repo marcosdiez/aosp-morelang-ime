@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<inputmethod id="bn-nkb" name="National Keyboard" description="Bengali National Keyboard input method" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="0">
+  <pattern input="1" replacement="৴" altGr="true"/>
+  <pattern input="2" replacement="৵" altGr="true"/>
+  <pattern input="3" replacement="৶" altGr="true"/>
+  <pattern input="4" replacement="৳" altGr="true"/>
+  <pattern input="5" replacement="৷" altGr="true"/>
+  <pattern input="6" replacement="৸" altGr="true"/>
+  <pattern input="7" replacement="ं" altGr="true"/>
+  <pattern input="0" replacement="৹" altGr="true"/>
+  <pattern input="\-" replacement="‌" altGr="true"/>
+  <pattern input="\=" replacement="‍" altGr="true"/>
+  <pattern input="q" replacement="ৢ" altGr="true"/>
+  <pattern input="w" replacement="্য" altGr="true"/>
+  <pattern input="e" replacement="ৄ" altGr="true"/>
+  <pattern input="i" replacement="ঽ" altGr="true"/>
+  <pattern input="a" replacement="ঋ" altGr="true"/>
+  <pattern input="s" replacement="উ" altGr="true"/>
+  <pattern input="d" replacement="ই" altGr="true"/>
+  <pattern input="f" replacement="ৰ" altGr="true"/>
+  <pattern input="g" replacement="॥" altGr="true"/>
+  <pattern input="h" replacement="আ" altGr="true"/>
+  <pattern input="j" replacement="঱" altGr="true"/>
+  <pattern input="k" replacement="ঢ" altGr="true"/>
+  <pattern input="l" replacement="ঌ" altGr="true"/>
+  <pattern input="z" replacement="৺" altGr="true"/>
+  <pattern input="x" replacement="ও" altGr="true"/>
+  <pattern input="c" replacement="এ" altGr="true"/>
+  <pattern input="v" replacement="্র" altGr="true"/>
+  <pattern input="\." replacement="়" altGr="true"/>
+  <pattern input="\$" replacement="৲" altGr="true"/>
+  <pattern input="\^" replacement="঳" altGr="true"/>
+  <pattern input="Q" replacement="ৣ" altGr="true"/>
+  <pattern input="A" replacement="ৠ" altGr="true"/>
+  <pattern input="S" replacement="ঊ" altGr="true"/>
+  <pattern input="D" replacement="ঈ" altGr="true"/>
+  <pattern input="F" replacement="ৱ" altGr="true"/>
+  <pattern input="L" replacement="ৡ" altGr="true"/>
+  <pattern input="X" replacement="ঔ" altGr="true"/>
+  <pattern input="C" replacement="ঐ" altGr="true"/>
+  <pattern input="1" replacement="১"/>
+  <pattern input="2" replacement="২"/>
+  <pattern input="3" replacement="৩"/>
+  <pattern input="4" replacement="৪"/>
+  <pattern input="5" replacement="৫"/>
+  <pattern input="6" replacement="৬"/>
+  <pattern input="7" replacement="৭"/>
+  <pattern input="8" replacement="৮"/>
+  <pattern input="9" replacement="৯"/>
+  <pattern input="0" replacement="০"/>
+  <pattern input="q" replacement="ঙ"/>
+  <pattern input="w" replacement="য"/>
+  <pattern input="e" replacement="ড"/>
+  <pattern input="r" replacement="প"/>
+  <pattern input="t" replacement="ট"/>
+  <pattern input="y" replacement="চ"/>
+  <pattern input="u" replacement="জ"/>
+  <pattern input="i" replacement="হ"/>
+  <pattern input="o" replacement="গ"/>
+  <pattern input="p" replacement="ড়"/>
+  <pattern input="a" replacement="ৃ"/>
+  <pattern input="s" replacement="ু"/>
+  <pattern input="d" replacement="ি"/>
+  <pattern input="f" replacement="ব"/>
+  <pattern input="g" replacement="্"/>
+  <pattern input="h" replacement="া"/>
+  <pattern input="j" replacement="ক"/>
+  <pattern input="k" replacement="ত"/>
+  <pattern input="l" replacement="দ"/>
+  <pattern input="z" replacement="ঁ"/>
+  <pattern input="x" replacement="ো"/>
+  <pattern input="c" replacement="ে"/>
+  <pattern input="v" replacement="র"/>
+  <pattern input="b" replacement="ন"/>
+  <pattern input="n" replacement="স"/>
+  <pattern input="m" replacement="ম"/>
+  <pattern input="Q" replacement="ং"/>
+  <pattern input="W" replacement="য়"/>
+  <pattern input="E" replacement="ঢ"/>
+  <pattern input="R" replacement="ফ"/>
+  <pattern input="T" replacement="ঠ"/>
+  <pattern input="Y" replacement="ছ"/>
+  <pattern input="U" replacement="ঝ"/>
+  <pattern input="I" replacement="ঞ"/>
+  <pattern input="O" replacement="ঘ"/>
+  <pattern input="P" replacement="ঢ়"/>
+  <pattern input="A" replacement="ৗ"/>
+  <pattern input="S" replacement="ূ"/>
+  <pattern input="D" replacement="ী"/>
+  <pattern input="F" replacement="ভ"/>
+  <pattern input="G" replacement="।"/>
+  <pattern input="H" replacement="অ"/>
+  <pattern input="J" replacement="খ"/>
+  <pattern input="K" replacement="থ"/>
+  <pattern input="L" replacement="ধ"/>
+  <pattern input="Z" replacement="ঃ"/>
+  <pattern input="X" replacement="ৌ"/>
+  <pattern input="C" replacement="ৈ"/>
+  <pattern input="V" replacement="ল"/>
+  <pattern input="B" replacement="ণ"/>
+  <pattern input="N" replacement="ষ"/>
+  <pattern input="M" replacement="শ"/>
+</inputmethod>

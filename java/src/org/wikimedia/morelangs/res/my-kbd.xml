@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<inputmethod id="my-kbd" name="Myanmar kbd" description="Myanmar kbd keyboard layout" author="Parag Nemade" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="g" replacement="၌" altGr="true"/>
+  <pattern input="h" replacement="၍" altGr="true"/>
+  <pattern input="j" replacement="၎" altGr="true"/>
+  <pattern input="k" replacement="ဤ" altGr="true"/>
+  <pattern input="1" replacement="၁"/>
+  <pattern input="\!" replacement="ဍ"/>
+  <pattern input="2" replacement="၂"/>
+  <pattern input="3" replacement="၃"/>
+  <pattern input="\#" replacement="ဋ"/>
+  <pattern input="4" replacement="၄"/>
+  <pattern input="5" replacement="၅"/>
+  <pattern input="6" replacement="၆"/>
+  <pattern input="7" replacement="၇"/>
+  <pattern input="\&amp;" replacement="ရ"/>
+  <pattern input="8" replacement="၈"/>
+  <pattern input="\*" replacement="ဂ"/>
+  <pattern input="9" replacement="၉"/>
+  <pattern input="0" replacement="၀"/>
+  <pattern input="\)" replacement="ဝ"/>
+  <pattern input="q" replacement="ဆ"/>
+  <pattern input="Q" replacement="၍"/>
+  <pattern input="w" replacement="တ"/>
+  <pattern input="e" replacement="န"/>
+  <pattern input="r" replacement="မ"/>
+  <pattern input="t" replacement="အ"/>
+  <pattern input="y" replacement="ပ"/>
+  <pattern input="u" replacement="က"/>
+  <pattern input="i" replacement="င"/>
+  <pattern input="o" replacement="သ"/>
+  <pattern input="O" replacement="ဥ"/>
+  <pattern input="p" replacement="စ"/>
+  <pattern input="P" replacement="ဏ"/>
+  <pattern input="\[" replacement="ဟ"/>
+  <pattern input="\{" replacement="ဎ"/>
+  <pattern input="\]" replacement="ဉ"/>
+  <pattern input="\}" replacement="ဧ"/>
+  <pattern input="\\" replacement="၏"/>
+  <pattern input="a" replacement="ေ"/>
+  <pattern input="A" replacement="ဗ"/>
+  <pattern input="s" replacement="္ ယ"/>
+  <pattern input="S" replacement="္ ဟ"/>
+  <pattern input="d" replacement="ိ"/>
+  <pattern input="D" replacement="ီ"/>
+  <pattern input="f" replacement="္"/>
+  <pattern input="F" replacement="‍"/>
+  <pattern input="g" replacement="‌"/>
+  <pattern input="G" replacement="္ ဝ"/>
+  <pattern input="h" replacement="့"/>
+  <pattern input="H" replacement="ံ"/>
+  <pattern input="j" replacement="္ ရ"/>
+  <pattern input="J" replacement="ဲ"/>
+  <pattern input="k" replacement="ု"/>
+  <pattern input="l" replacement="ူ"/>
+  <pattern input=";" replacement="း"/>
+  <pattern input="&apos;" replacement="ဒ"/>
+  <pattern input="&quot;" replacement="ဓ"/>
+  <pattern input="z" replacement="ဖ"/>
+  <pattern input="Z" replacement="ဇ"/>
+  <pattern input="x" replacement="ထ"/>
+  <pattern input="X" replacement="ဌ"/>
+  <pattern input="c" replacement="ခ"/>
+  <pattern input="C" replacement="ဃ"/>
+  <pattern input="v" replacement="လ"/>
+  <pattern input="V" replacement="ဠ"/>
+  <pattern input="b" replacement="ဘ"/>
+  <pattern input="n" replacement="ည"/>
+  <pattern input="m" replacement="ာ"/>
+  <pattern input="," replacement="ယ"/>
+  <pattern input="\&lt;" replacement="၍"/>
+  <pattern input="\." replacement="ဈ"/>
+  <pattern input="\&gt;" replacement="ဤ"/>
+  <pattern input="/" replacement="။"/>
+</inputmethod>

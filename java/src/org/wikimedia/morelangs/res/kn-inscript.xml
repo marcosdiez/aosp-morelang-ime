@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<inputmethod id="kn-inscript" name="ಇನ್‌ಸ್ಕ್ರಿಪ್ಟ್" description="Inscript keyboard for Kannada script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="F" replacement="좌" altGr="true"/>
+  <pattern input="\&gt;" replacement="ಽ" altGr="true"/>
+  <pattern input="\=" replacement="ೄ" altGr="true"/>
+  <pattern input="H" replacement="ೞ" altGr="true"/>
+  <pattern input="\+" replacement="ೠ" altGr="true"/>
+  <pattern input="R" replacement="ೡ" altGr="true"/>
+  <pattern input="f" replacement="ೢ" altGr="true"/>
+  <pattern input="r" replacement="ೣ" altGr="true"/>
+  <pattern input="\&gt;" replacement="೤" altGr="true"/>
+  <pattern input="\." replacement="೥" altGr="true"/>
+  <pattern input="u" replacement="ೱ" altGr="true"/>
+  <pattern input="j" replacement="ೲ" altGr="true"/>
+  <pattern input="\$" replacement="₹" altGr="true"/>
+  <pattern input="x" replacement="ಂ"/>
+  <pattern input="_" replacement="ಃ"/>
+  <pattern input="D" replacement="ಅ"/>
+  <pattern input="E" replacement="ಆ"/>
+  <pattern input="F" replacement="ಇ"/>
+  <pattern input="R" replacement="ಈ"/>
+  <pattern input="G" replacement="ಉ"/>
+  <pattern input="T" replacement="ಊ"/>
+  <pattern input="\+" replacement="ಋ"/>
+  <pattern input="Z" replacement="ಎ"/>
+  <pattern input="S" replacement="ಏ"/>
+  <pattern input="W" replacement="ಐ"/>
+  <pattern input="~" replacement="ಒ"/>
+  <pattern input="A" replacement="ಓ"/>
+  <pattern input="Q" replacement="ಔ"/>
+  <pattern input="k" replacement="ಕ"/>
+  <pattern input="K" replacement="ಖ"/>
+  <pattern input="i" replacement="ಗ"/>
+  <pattern input="I" replacement="ಘ"/>
+  <pattern input="U" replacement="ಙ"/>
+  <pattern input=";" replacement="ಚ"/>
+  <pattern input="\:" replacement="ಛ"/>
+  <pattern input="p" replacement="ಜ"/>
+  <pattern input="P" replacement="ಝ"/>
+  <pattern input="\}" replacement="ಞ"/>
+  <pattern input="&apos;" context="" replacement="ಟ"/>
+  <pattern input="&quot;" replacement="ಠ"/>
+  <pattern input="\[" replacement="ಡ"/>
+  <pattern input="\{" replacement="ಢ"/>
+  <pattern input="C" replacement="ಣ"/>
+  <pattern input="l" replacement="ತ"/>
+  <pattern input="L" replacement="ಥ"/>
+  <pattern input="o" replacement="ದ"/>
+  <pattern input="O" replacement="ಧ"/>
+  <pattern input="v" replacement="ನ"/>
+  <pattern input="h" replacement="ಪ"/>
+  <pattern input="H" replacement="ಫ"/>
+  <pattern input="y" replacement="ಬ"/>
+  <pattern input="Y" replacement="ಭ"/>
+  <pattern input="c" replacement="ಮ"/>
+  <pattern input="/" replacement="ಯ"/>
+  <pattern input="j" replacement="ರ"/>
+  <pattern input="J" replacement="ಱ"/>
+  <pattern input="n" replacement="ಲ"/>
+  <pattern input="N" replacement="ಳ"/>
+  <pattern input="b" replacement="ವ"/>
+  <pattern input="M" replacement="ಶ"/>
+  <pattern input="," replacement="ಷ"/>
+  <pattern input="m" replacement="ಸ"/>
+  <pattern input="u" replacement="ಹ"/>
+  <pattern input="\]" replacement="಼"/>
+  <pattern input="e" replacement="ಾ"/>
+  <pattern input="f" replacement="ಿ"/>
+  <pattern input="r" replacement="ೀ"/>
+  <pattern input="g" replacement="ು"/>
+  <pattern input="t" replacement="ೂ"/>
+  <pattern input="\=" replacement="ೃ"/>
+  <pattern input="z" replacement="ೆ"/>
+  <pattern input="s" replacement="ೇ"/>
+  <pattern input="w" replacement="ೈ"/>
+  <pattern input="`" replacement="ೊ"/>
+  <pattern input="a" replacement="ೋ"/>
+  <pattern input="q" replacement="ೌ"/>
+  <pattern input="d" replacement="್"/>
+  <pattern input="t" replacement="ೂ"/>
+  <pattern input="0" replacement="೦"/>
+  <pattern input="1" replacement="೧"/>
+  <pattern input="2" replacement="೨"/>
+  <pattern input="3" replacement="೩"/>
+  <pattern input="4" replacement="೪"/>
+  <pattern input="5" replacement="೫"/>
+  <pattern input="6" replacement="೬"/>
+  <pattern input="7" replacement="೭"/>
+  <pattern input="8" replacement="೮"/>
+  <pattern input="9" replacement="೯"/>
+  <pattern input="\#" replacement="್ರ"/>
+  <pattern input="\%" replacement="ಜ್ಞ"/>
+  <pattern input="\^" replacement="ತ್ರ"/>
+  <pattern input="\&amp;" replacement="ಕ್ರ"/>
+  <pattern input="\(" replacement="‍"/>
+  <pattern input="\)" replacement="‌"/>
+</inputmethod>

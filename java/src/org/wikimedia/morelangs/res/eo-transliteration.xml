@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<inputmethod id="eo-transliteration" name="Esperanto Transliteration" description="Esperanto x-code transliteration" author="Brion Vibber" version="1.0" contextLength="1" maxKeyLength="1">
+  <pattern input="C[Xx]" context="C" replacement="Ĉ"/>
+  <pattern input="Ĉ([Xx])" context="[Xx]" replacement="C$1"/>
+  <pattern input="G[Xx]" context="G" replacement="Ĝ"/>
+  <pattern input="Ĝ([Xx])" context="[Xx]" replacement="G$1"/>
+  <pattern input="H[Xx]" context="H" replacement="Ĥ"/>
+  <pattern input="Ĥ([Xx])" context="[Xx]" replacement="H$1"/>
+  <pattern input="J[Xx]" context="J" replacement="Ĵ"/>
+  <pattern input="Ĵ([Xx])" context="[Xx]" replacement="J$1"/>
+  <pattern input="S[Xx]" context="S" replacement="Ŝ"/>
+  <pattern input="Ŝ([Xx])" context="[Xx]" replacement="S$1"/>
+  <pattern input="U[Xx]" context="U" replacement="Ŭ"/>
+  <pattern input="Ŭ([Xx])" context="[Xx]" replacement="U$1"/>
+  <pattern input="c[Xx]" context="c" replacement="ĉ"/>
+  <pattern input="ĉ([Xx])" context="[Xx]" replacement="c$1"/>
+  <pattern input="g[Xx]" context="g" replacement="ĝ"/>
+  <pattern input="ĝ([Xx])" context="[Xx]" replacement="g$1"/>
+  <pattern input="h[Xx]" context="h" replacement="ĥ"/>
+  <pattern input="ĥ([Xx])" context="[Xx]" replacement="h$1"/>
+  <pattern input="j[Xx]" context="j" replacement="ĵ"/>
+  <pattern input="ĵ([Xx])" context="[Xx]" replacement="j$1"/>
+  <pattern input="s[Xx]" context="s" replacement="ŝ"/>
+  <pattern input="ŝ([Xx])" context="[Xx]" replacement="s$1"/>
+  <pattern input="u[Xx]" context="u" replacement="ŭ"/>
+  <pattern input="ŭ([Xx])" context="[Xx]" replacement="u$1"/>
+</inputmethod>

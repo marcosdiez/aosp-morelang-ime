@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<inputmethod id="se-normforms" name="Davvisámegiella" description="Northern Sami input method" author="John Erling Blad" version="1.0" contextLength="0" maxKeyLength="3">
+  <pattern input="&apos;a" replacement="á"/>
+  <pattern input="&apos;A" replacement="Á"/>
+  <pattern input="~c" replacement="č"/>
+  <pattern input="~C" replacement="Č"/>
+  <pattern input="~d" replacement="đ"/>
+  <pattern input="~D" replacement="Đ"/>
+  <pattern input="~g" replacement="ŋ"/>
+  <pattern input="~G" replacement="Ŋ"/>
+  <pattern input="~s" replacement="š"/>
+  <pattern input="~S" replacement="Š"/>
+  <pattern input="~t" replacement="ŧ"/>
+  <pattern input="~T" replacement="Ŧ"/>
+  <pattern input="~z" replacement="ž"/>
+  <pattern input="~Z" replacement="Ž"/>
+</inputmethod>

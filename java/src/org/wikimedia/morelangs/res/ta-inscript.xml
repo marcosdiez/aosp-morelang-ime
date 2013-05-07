@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<inputmethod id="ta-inscript" name="இன்ஸ்கிரிப்ட்" description="Tamil InScript Keyboard" author="Junaid P V" version="1.0" contextLength="1" maxKeyLength="4">
+  <pattern input="X" replacement="ௐ" altGr="true"/>
+  <pattern input="\)" replacement="௰" altGr="true"/>
+  <pattern input="-" replacement="௱" altGr="true"/>
+  <pattern input="=" replacement="௲" altGr="true"/>
+  <pattern input="n" replacement="௳" altGr="true"/>
+  <pattern input="c" replacement="௴" altGr="true"/>
+  <pattern input="b" replacement="௵" altGr="true"/>
+  <pattern input="h" replacement="௶" altGr="true"/>
+  <pattern input="y" replacement="௷" altGr="true"/>
+  <pattern input="C" replacement="௸" altGr="true"/>
+  <pattern input="," replacement="௹" altGr="true"/>
+  <pattern input="V" replacement="௺" altGr="true"/>
+  <pattern input="4" replacement="₹" altGr="true"/>
+  <pattern input="`" replacement="ொ"/>
+  <pattern input="~" replacement="ஒ"/>
+  <pattern input="&amp;" replacement="க்ஷ"/>
+  <pattern input="\*" replacement="ஷ்ர"/>
+  <pattern input="\)" replacement="‌"/>
+  <pattern input="_" replacement="ஃ"/>
+  <pattern input="q" replacement="ௌ"/>
+  <pattern input="Q" replacement="ஔ"/>
+  <pattern input="w" replacement="ை"/>
+  <pattern input="W" replacement="ஐ"/>
+  <pattern input="e" replacement="ா"/>
+  <pattern input="E" replacement="ஆ"/>
+  <pattern input="r" replacement="ீ"/>
+  <pattern input="R" replacement="ஈ"/>
+  <pattern input="t" replacement="ூ"/>
+  <pattern input="T" replacement="ஊ"/>
+  <pattern input="u" replacement="ஹ"/>
+  <pattern input="U" replacement="ங"/>
+  <pattern input="p" replacement="ஜ"/>
+  <pattern input="\}" replacement="ஞ"/>
+  <pattern input="a" replacement="ோ"/>
+  <pattern input="A" replacement="ஓ"/>
+  <pattern input="s" replacement="ே"/>
+  <pattern input="S" replacement="ஏ"/>
+  <pattern input="d" replacement="்"/>
+  <pattern input="D" replacement="அ"/>
+  <pattern input="f" replacement="ி"/>
+  <pattern input="F" replacement="இ"/>
+  <pattern input="g" replacement="ு"/>
+  <pattern input="G" replacement="உ"/>
+  <pattern input="h" replacement="ப"/>
+  <pattern input="j" replacement="ர"/>
+  <pattern input="J" replacement="ற"/>
+  <pattern input="k" replacement="க"/>
+  <pattern input="l" replacement="த"/>
+  <pattern input=";" replacement="ச"/>
+  <pattern input="&apos;" replacement="ட"/>
+  <pattern input="z" replacement="ெ"/>
+  <pattern input="Z" replacement="எ"/>
+  <pattern input="c" replacement="ம"/>
+  <pattern input="C" replacement="ண"/>
+  <pattern input="v" replacement="ந"/>
+  <pattern input="V" replacement="ன"/>
+  <pattern input="b" replacement="வ"/>
+  <pattern input="B" replacement="ழ"/>
+  <pattern input="n" replacement="ல"/>
+  <pattern input="N" replacement="ள"/>
+  <pattern input="m" replacement="ஸ"/>
+  <pattern input="M" replacement="ஶ"/>
+  <pattern input="&lt;" replacement="ஷ"/>
+  <pattern input="/" replacement="ய"/>
+  <pattern input="1" replacement="௧"/>
+  <pattern input="2" replacement="௨"/>
+  <pattern input="3" replacement="௩"/>
+  <pattern input="4" replacement="௪"/>
+  <pattern input="5" replacement="௫"/>
+  <pattern input="6" replacement="௬"/>
+  <pattern input="7" replacement="௭"/>
+  <pattern input="8" replacement="௮"/>
+  <pattern input="9" replacement="௯"/>
+  <pattern input="0" replacement="௦"/>
+</inputmethod>

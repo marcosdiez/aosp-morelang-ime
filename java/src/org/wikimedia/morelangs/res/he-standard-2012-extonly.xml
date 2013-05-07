@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<inputmethod id="he-standard-2012-extonly" name="Hebrew 2012" description="Hebrew keyboard according to Israeli Standard 1452" author="Amir E. Aharoni (אָמִיר אֱלִישָׁע אַהֲרוֹנִי, [[User:Amire80]])" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="ש" replacement="ְ" altGr="true"/>
+  <pattern input="ק" replacement="ָ" altGr="true"/>
+  <pattern input="ר" replacement="ֳ" altGr="true"/>
+  <pattern input="פ" replacement="ַ" altGr="true"/>
+  <pattern input="\]" replacement="ֲ" altGr="true"/>
+  <pattern input="צ" replacement="ֵ" altGr="true"/>
+  <pattern input="ס" replacement="ֶ" altGr="true"/>
+  <pattern input="ב" replacement="ֱ" altGr="true"/>
+  <pattern input="ח" replacement="ִ" altGr="true"/>
+  <pattern input="ו" replacement="ֹ" altGr="true"/>
+  <pattern input="\\" replacement="ֻ" altGr="true"/>
+  <pattern input="ד" replacement="ּ" altGr="true"/>
+  <pattern input="/" replacement="ׂ" altGr="true"/>
+  <pattern input="&apos;" replacement="ׁ" altGr="true"/>
+  <pattern input="-" replacement="־" altGr="true"/>
+  <pattern input="=" replacement="–" altGr="true"/>
+  <pattern input="\[" replacement="ֿ" altGr="true"/>
+  <pattern input="1" replacement="ֽ" altGr="true"/>
+  <pattern input="3" replacement="€" altGr="true"/>
+  <pattern input="4" replacement="₪" altGr="true"/>
+  <pattern input="5" replacement="°" altGr="true"/>
+  <pattern input="6" replacement="֫" altGr="true"/>
+  <pattern input="8" replacement="×" altGr="true"/>
+  <pattern input="\." replacement="÷" altGr="true"/>
+  <pattern input="ט" replacement="װ" altGr="true"/>
+  <pattern input="י" replacement="ײ" altGr="true"/>
+  <pattern input="ע" replacement="ױ" altGr="true"/>
+  <pattern input=";" replacement="׳" altGr="true"/>
+  <pattern input="," replacement="״" altGr="true"/>
+  <pattern input="ף" replacement="„" altGr="true"/>
+  <pattern input="ך" replacement="”" altGr="true"/>
+  <pattern input="ץ" replacement="‚" altGr="true"/>
+  <pattern input="ת" replacement="’" altGr="true"/>
+</inputmethod>
