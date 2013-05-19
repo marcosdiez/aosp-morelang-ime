@@ -116,11 +116,13 @@ public class HttpService extends Service {
     if (addr == null) {
       addr = "Port: " + port;
     }
-    String tickerText = addr + " - WiFiKeyboard";
+    Context context = getApplicationContext();
+    
+    String tickerText = addr + " - " +   getResources().getString(R.string.app_name);
     Notification notification = new Notification(R.drawable.icon, ticker ? tickerText : null, when);
     
-    Context context = getApplicationContext();
-    CharSequence contentTitle = "WiFi Keyboard";
+    
+    CharSequence contentTitle = getResources().getString(R.string.app_name); // "WiFi Keyboard";
     CharSequence contentText = addr;
     Intent notificationIntent = new Intent(this, WiFiKeyboard.class);
     PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);

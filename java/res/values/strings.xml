@@ -20,13 +20,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 
-<string name="app_name">WiFiKeyboard</string>
+<string name="app_name">AOSP WiFi Keyboard</string>
 
-<string name="desc_setup_wifi">Setting up WiFiKeyboard:</string>
+<string name="desc_setup_wifi">Setting up AOSP WiFi Keyboard:</string>
 <string name="desc_goto_settings">Go to Settings->Language &amp; Keyboard</string>
-<string name="desc_enable_kbd">Enable WiFiKeyboard in the list</string>
+<string name="desc_enable_kbd">Enable AOSP WiFi Keyboard in the list</string>
 <string name="desc_toch_input_field">On any text input touch and hold for a second</string>
-<string name="desc_change_input_method">Change \"InputMethod\" to \"WiFiKeyboard\"</string>
+<string name="desc_change_input_method">Change \"InputMethod\" to \"AOSP WiFi Keyboard\"</string>
 <string name="desc_enable_network">Ensure you have enabled WiFi or GPRS/3G network</string>
 <string name="desc_connect_to_one">Connect your computer\'s browser to http://%1$s:%2$d</string>
 <string name="desc_connect_to_any">Connect your computer\'s browser to any of:</string>
@@ -36,11 +36,11 @@
 <string name="desc_cmdline">Type \"adb forward tcp:%1$d tcp:%2$d\" in command line</string>
 <string name="desc_connect_local">And connect your computer\'s browser to http://localhost:%d</string>
 
-<string name="page_title">WiFi&amp;nbsp;Keyboard</string>
+<string name="page_title">AOSP&amp;nbsp;WiFi&amp;nbsp;Keyboard</string>
 <string name="conn_problem_title">Connection problem</string>
 <string name="conn_problem_desc">No connection between the phone and computer.</string>
 <string name="input_disabled_title">Not typing</string>
-<string name="input_disabled_desc">Enable WiFiKeyboard input on you device.</string>
+<string name="input_disabled_desc">Enable AOSP WiFi Keyboard input on you device.</string>
 <string name="input_disabled_link_text">Visit help page.</string>
 <!-- ignore the line, I'll add the url myself -->
 <string name="input_disabled_link_url">http://code.google.com/p/wifikeyboard/wiki/WiFiKeyboardSettings</string>
