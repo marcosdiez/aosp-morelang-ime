@@ -18,4 +18,5 @@ and Ivan Volosyuk, http://code.google.com/p/wifikeyboard/
 
 
 Google Play Link: https://play.google.com/store/apps/details?id=com.marcosdiez.keyboard.latin
+
 Merge done by Marcos Diez (marcos AT unitron DOT com DOT br)
