@@ -31,7 +31,7 @@ import org.wikimedia.morelangs.keyboard.Keyboard;
 import org.wikimedia.morelangs.keyboard.KeyboardId;
 import org.wikimedia.morelangs.keyboard.LatinKeyboardView;
 import org.wikimedia.morelangs.keyboard.PointerTracker;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 public class AccessibleKeyboardViewProxy extends AccessibilityDelegateCompat {
     private static final AccessibleKeyboardViewProxy sInstance = new AccessibleKeyboardViewProxy();

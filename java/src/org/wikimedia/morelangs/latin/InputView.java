@@ -22,7 +22,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 public class InputView extends LinearLayout {
     private View mSuggestionsContainer;

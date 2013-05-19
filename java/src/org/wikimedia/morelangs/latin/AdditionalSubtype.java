@@ -19,7 +19,7 @@ package org.wikimedia.morelangs.latin;
 import android.os.Build;
 import android.text.TextUtils;
 import android.view.inputmethod.InputMethodSubtype;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 import java.util.ArrayList;
 

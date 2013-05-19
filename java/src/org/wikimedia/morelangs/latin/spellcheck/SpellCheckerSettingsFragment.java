@@ -19,7 +19,7 @@ package org.wikimedia.morelangs.latin.spellcheck;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 /**
  * Preference screen.

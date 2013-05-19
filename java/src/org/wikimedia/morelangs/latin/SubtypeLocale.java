@@ -23,7 +23,7 @@ import android.util.Log;
 import android.view.inputmethod.InputMethodSubtype;
 
 import org.wikimedia.morelangs.InputMethod;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 import java.util.HashMap;
 import java.util.Locale;

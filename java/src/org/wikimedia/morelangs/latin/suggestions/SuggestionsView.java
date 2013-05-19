@@ -58,7 +58,7 @@ import org.wikimedia.morelangs.keyboard.MoreKeysPanel;
 import org.wikimedia.morelangs.keyboard.PointerTracker;
 import org.wikimedia.morelangs.keyboard.ViewLayoutUtils;
 import org.wikimedia.morelangs.latin.LatinImeLogger;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.ResearchLogger;
 import org.wikimedia.morelangs.latin.StaticInnerHandlerWrapper;
 import org.wikimedia.morelangs.latin.Suggest;

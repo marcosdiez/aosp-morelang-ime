@@ -38,7 +38,7 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.define.ProductionFlag;
 import org.wikimedia.morelangs.inputmethodcommon.InputMethodSettingsFragment;
 

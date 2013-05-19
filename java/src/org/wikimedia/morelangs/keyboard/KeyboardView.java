@@ -38,7 +38,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.wikimedia.morelangs.latin.LatinImeLogger;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.StaticInnerHandlerWrapper;
 import org.wikimedia.morelangs.latin.StringUtils;
 

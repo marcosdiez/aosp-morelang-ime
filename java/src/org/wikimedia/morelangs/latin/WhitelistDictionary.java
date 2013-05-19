@@ -22,7 +22,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
 
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 import java.util.HashMap;
 import java.util.Locale;

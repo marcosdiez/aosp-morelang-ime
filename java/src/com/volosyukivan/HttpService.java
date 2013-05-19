@@ -23,7 +23,7 @@ import java.io.InputStream;
 import java.nio.channels.ServerSocketChannel;
 import java.util.ArrayList;
 
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 import android.app.Notification;
 import android.app.NotificationManager;

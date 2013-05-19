@@ -38,7 +38,7 @@ import org.wikimedia.morelangs.keyboard.KeyboardLayoutSet.Params.ElementParams;
 import org.wikimedia.morelangs.latin.InputAttributes;
 import org.wikimedia.morelangs.latin.InputTypeUtils;
 import org.wikimedia.morelangs.latin.LatinImeLogger;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.SubtypeLocale;
 import org.wikimedia.morelangs.latin.SubtypeSwitcher;
 import org.wikimedia.morelangs.latin.XmlParseUtils;

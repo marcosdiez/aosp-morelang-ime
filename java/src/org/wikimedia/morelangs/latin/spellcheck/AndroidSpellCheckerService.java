@@ -36,7 +36,7 @@ import org.wikimedia.morelangs.latin.DictionaryCollection;
 import org.wikimedia.morelangs.latin.DictionaryFactory;
 import org.wikimedia.morelangs.latin.LatinIME;
 import org.wikimedia.morelangs.latin.LocaleUtils;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.StringUtils;
 import org.wikimedia.morelangs.latin.SynchronouslyLoadedContactsBinaryDictionary;
 import org.wikimedia.morelangs.latin.SynchronouslyLoadedContactsDictionary;

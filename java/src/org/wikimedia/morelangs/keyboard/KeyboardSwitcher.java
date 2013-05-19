@@ -33,7 +33,7 @@ import org.wikimedia.morelangs.latin.ImfUtils;
 import org.wikimedia.morelangs.latin.InputView;
 import org.wikimedia.morelangs.latin.LatinIME;
 import org.wikimedia.morelangs.latin.LatinImeLogger;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.SettingsValues;
 import org.wikimedia.morelangs.latin.SubtypeSwitcher;
 import org.wikimedia.morelangs.latin.Utils;

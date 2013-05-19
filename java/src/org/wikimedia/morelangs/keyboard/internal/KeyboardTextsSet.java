@@ -19,7 +19,7 @@ package org.wikimedia.morelangs.keyboard.internal;
 import android.content.Context;
 import android.content.res.Resources;
 
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 import java.util.HashMap;
 

@@ -26,7 +26,7 @@ import java.nio.channels.SocketChannel;
 import java.util.Map;
 import java.util.TreeMap;
 
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 import android.util.Log;
 

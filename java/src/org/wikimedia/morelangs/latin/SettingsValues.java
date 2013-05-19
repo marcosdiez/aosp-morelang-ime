@@ -24,7 +24,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
 
 import org.wikimedia.morelangs.keyboard.internal.KeySpecParser;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

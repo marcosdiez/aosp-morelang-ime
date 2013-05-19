@@ -31,7 +31,7 @@ import org.wikimedia.morelangs.keyboard.KeyboardView;
 import org.wikimedia.morelangs.keyboard.MoreKeysDetector;
 import org.wikimedia.morelangs.keyboard.MoreKeysPanel;
 import org.wikimedia.morelangs.keyboard.PointerTracker;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 /**
  * A view that renders a virtual {@link MoreSuggestions}. It handles rendering of keys and detecting

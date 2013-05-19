@@ -22,7 +22,7 @@ import android.view.View;
 
 import org.wikimedia.morelangs.keyboard.internal.KeySpecParser.MoreKeySpec;
 import org.wikimedia.morelangs.keyboard.internal.KeyboardIconsSet;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.StringUtils;
 
 public class MoreKeysKeyboard extends Keyboard {

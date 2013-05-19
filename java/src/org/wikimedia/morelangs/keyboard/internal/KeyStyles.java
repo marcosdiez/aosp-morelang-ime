@@ -20,7 +20,7 @@ import android.content.res.TypedArray;
 import android.util.Log;
 
 import org.wikimedia.morelangs.keyboard.Keyboard;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.XmlParseUtils;
 
 import org.xmlpull.v1.XmlPullParser;

@@ -32,7 +32,7 @@ import org.wikimedia.morelangs.keyboard.internal.KeyboardCodesSet;
 import org.wikimedia.morelangs.keyboard.internal.KeyboardIconsSet;
 import org.wikimedia.morelangs.keyboard.internal.KeyboardTextsSet;
 import org.wikimedia.morelangs.latin.LatinImeLogger;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.SubtypeLocale;
 import org.wikimedia.morelangs.latin.Utils;
 import org.wikimedia.morelangs.latin.XmlParseUtils;

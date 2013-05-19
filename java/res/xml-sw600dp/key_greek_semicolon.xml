@@ -19,7 +19,7 @@
 -->
 
 <merge
-    xmlns:latin="http://schemas.android.com/apk/res/org.wikimedia.morelangs.latin"
+    xmlns:latin="http://schemas.android.com/apk/res/com.marcosdiez.keyboard.latin"
 >
     <Key
         latin:keyLabel=";"

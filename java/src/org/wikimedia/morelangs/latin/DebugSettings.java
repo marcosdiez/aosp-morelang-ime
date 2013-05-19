@@ -27,7 +27,7 @@ import android.preference.PreferenceFragment;
 import android.util.Log;
 
 import org.wikimedia.morelangs.keyboard.KeyboardSwitcher;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 public class DebugSettings extends PreferenceFragment
         implements SharedPreferences.OnSharedPreferenceChangeListener {

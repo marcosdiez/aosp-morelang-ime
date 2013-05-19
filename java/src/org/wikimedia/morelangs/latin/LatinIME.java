@@ -71,7 +71,7 @@ import org.wikimedia.morelangs.keyboard.KeyboardSwitcher;
 import org.wikimedia.morelangs.keyboard.KeyboardView;
 import org.wikimedia.morelangs.keyboard.LatinKeyboardView;
 import org.wikimedia.morelangs.latin.LocaleUtils.RunInLocale;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.define.ProductionFlag;
 import org.wikimedia.morelangs.latin.suggestions.SuggestionsView;
 

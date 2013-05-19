@@ -25,7 +25,7 @@ import android.widget.PopupWindow;
 
 import org.wikimedia.morelangs.keyboard.PointerTracker.DrawingProxy;
 import org.wikimedia.morelangs.keyboard.PointerTracker.TimerProxy;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 /**
  * A view that renders a virtual {@link MoreKeysKeyboard}. It handles rendering of keys and

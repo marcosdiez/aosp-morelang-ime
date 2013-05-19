@@ -18,7 +18,7 @@
  */
 package com.volosyukivan;
 
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 import android.app.Activity;
 import android.app.PendingIntent;

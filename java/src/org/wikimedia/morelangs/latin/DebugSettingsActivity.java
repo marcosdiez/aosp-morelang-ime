@@ -19,7 +19,7 @@ package org.wikimedia.morelangs.latin;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 public class DebugSettingsActivity extends PreferenceActivity {
     @Override

@@ -21,7 +21,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 
 import org.wikimedia.morelangs.latin.LatinImeLogger;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.ResearchLogger;
 import org.wikimedia.morelangs.latin.Utils;
 import org.wikimedia.morelangs.latin.define.ProductionFlag;

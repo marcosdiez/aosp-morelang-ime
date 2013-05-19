@@ -24,7 +24,7 @@ import org.wikimedia.morelangs.keyboard.Key;
 import org.wikimedia.morelangs.keyboard.Keyboard;
 import org.wikimedia.morelangs.keyboard.KeyboardSwitcher;
 import org.wikimedia.morelangs.keyboard.internal.KeyboardIconsSet;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.SuggestedWords;
 import org.wikimedia.morelangs.latin.Utils;
 

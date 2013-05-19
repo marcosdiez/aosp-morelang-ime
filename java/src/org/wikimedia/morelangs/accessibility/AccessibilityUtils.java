@@ -30,7 +30,7 @@ import android.view.inputmethod.EditorInfo;
 import org.wikimedia.morelangs.compat.AudioManagerCompatWrapper;
 import org.wikimedia.morelangs.compat.SettingsSecureCompatUtils;
 import org.wikimedia.morelangs.latin.InputTypeUtils;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 public class AccessibilityUtils {
     private static final String TAG = AccessibilityUtils.class.getSimpleName();

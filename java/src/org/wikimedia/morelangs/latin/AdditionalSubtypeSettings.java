@@ -45,7 +45,7 @@ import android.widget.SpinnerAdapter;
 import android.widget.Toast;
 
 import org.wikimedia.morelangs.compat.CompatUtils;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 
 import java.util.ArrayList;
 import java.util.TreeSet;

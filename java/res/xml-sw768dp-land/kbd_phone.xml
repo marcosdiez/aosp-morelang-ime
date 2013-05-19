@@ -19,7 +19,7 @@
 -->
 
 <Keyboard
-    xmlns:latin="http://schemas.android.com/apk/res/org.wikimedia.morelangs.latin"
+    xmlns:latin="http://schemas.android.com/apk/res/com.marcosdiez.keyboard.latin"
     latin:keyboardHorizontalEdgesPadding="10%p"
     latin:keyWidth="13.250%p"
 >

@@ -45,7 +45,7 @@ import org.wikimedia.morelangs.keyboard.PointerTracker.DrawingProxy;
 import org.wikimedia.morelangs.keyboard.PointerTracker.TimerProxy;
 import org.wikimedia.morelangs.latin.LatinIME;
 import org.wikimedia.morelangs.latin.LatinImeLogger;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.ResearchLogger;
 import org.wikimedia.morelangs.latin.StaticInnerHandlerWrapper;
 import org.wikimedia.morelangs.latin.StringUtils;

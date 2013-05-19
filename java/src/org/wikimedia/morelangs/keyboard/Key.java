@@ -33,7 +33,7 @@ import android.util.Xml;
 import org.wikimedia.morelangs.keyboard.internal.KeySpecParser;
 import org.wikimedia.morelangs.keyboard.internal.KeySpecParser.MoreKeySpec;
 import org.wikimedia.morelangs.keyboard.internal.KeyboardIconsSet;
-import org.wikimedia.morelangs.latin.R;
+import com.marcosdiez.keyboard.latin.R;
 import org.wikimedia.morelangs.latin.StringUtils;
 
 import org.wikimedia.morelangs.keyboard.internal.KeyStyles;
