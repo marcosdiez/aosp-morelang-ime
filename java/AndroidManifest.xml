@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.marcosdiez.keyboard.latin">
+        package="com.marcosdiez.keyboard.latin"
+        android:versionCode="1"
+        android:versionName="1.0"
+        >
 
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="17" />
 
