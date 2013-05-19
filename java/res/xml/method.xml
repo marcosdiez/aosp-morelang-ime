@@ -124,7 +124,7 @@
              android:label="@string/subtype_generic"
              android:imeSubtypeLocale="de"
              android:imeSubtypeMode="keyboard"
-             android:imeSubtypeExtraValue="AsciiCapable,SupportTouchPositionCorrection"
+             android:imeSubtypeExtraValue="KeyboardLayoutSet=qwerty,AsciiCapable,SupportTouchPositionCorrection"
             />
     <subtype android:icon="@drawable/ic_subtype_keyboard"
              android:label="@string/subtype_generic"
