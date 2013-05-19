@@ -44,7 +44,7 @@ def parse_R(file, values):
     sys.exit(1)
 
 parse('en', values_en);
-parse_R('gen/org/wikimedia/morelangs/latin/R.java', values_lang);
+parse_R('gen/com/marcosdiez/keyboard/latin/R.java', values_lang);
 page=open('html/key.html').read();
 for num,(key,orig) in enumerate(
          sorted(values_en.iteritems(),

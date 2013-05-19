@@ -262,7 +262,7 @@ static JNINativeMethod sMethods[] = {
 };
 
 int register_BinaryDictionary(JNIEnv *env) {
-    const char* const kClassPathName = "org/wikimedia/morelangs/latin/BinaryDictionary";
+    const char* const kClassPathName = "com/marcosdiez/keyboard/latin/BinaryDictionary";
     return registerNativeMethods(env, kClassPathName, sMethods,
             sizeof(sMethods) / sizeof(sMethods[0]));
 }

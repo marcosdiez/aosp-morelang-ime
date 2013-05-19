@@ -81,7 +81,7 @@ static JNINativeMethod sKeyboardMethods[] = {
 };
 
 int register_ProximityInfo(JNIEnv *env) {
-    const char *const kClassPathName = "org/wikimedia/morelangs/keyboard/ProximityInfo";
+    const char *const kClassPathName = "com/marcosdiez/keyboard/keyboard/ProximityInfo";
     return registerNativeMethods(env, kClassPathName, sKeyboardMethods,
             sizeof(sKeyboardMethods) / sizeof(sKeyboardMethods[0]));
 }
