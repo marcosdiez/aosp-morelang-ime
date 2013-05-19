@@ -18,7 +18,7 @@
 */
 -->
 
-<org.wikimedia.morelangs.latin.InputView
+<com.marcosdiez.keyboard.latin.InputView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -43,7 +43,7 @@
             android:layout_width="@dimen/suggestions_strip_padding"
             android:layout_height="@dimen/suggestions_strip_height"
             style="?attr/suggestionsStripBackgroundStyle" />
-        <org.wikimedia.morelangs.latin.suggestions.SuggestionsView
+        <com.marcosdiez.keyboard.latin.suggestions.SuggestionsView
             android:id="@+id/suggestions_view"
             android:layout_weight="1.0"
             android:layout_width="0dp"
@@ -56,9 +56,9 @@
             style="?attr/suggestionsStripBackgroundStyle" />
     </LinearLayout>
 
-    <org.wikimedia.morelangs.keyboard.LatinKeyboardView
+    <com.marcosdiez.keyboard.keyboard.LatinKeyboardView
         android:id="@+id/keyboard_view"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-</org.wikimedia.morelangs.latin.InputView>
+</com.marcosdiez.keyboard.latin.InputView>

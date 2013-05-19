@@ -102,7 +102,7 @@
                 android:persistent="true"
                 android:defaultValue="false" />
             <PreferenceScreen
-                android:fragment="org.wikimedia.morelangs.latin.AdditionalSubtypeSettings"
+                android:fragment="com.marcosdiez.keyboard.latin.AdditionalSubtypeSettings"
                 android:key="custom_input_styles"
                 android:title="@string/custom_input_styles_title" />
             <!-- Values for popup dismiss delay are added programatically -->

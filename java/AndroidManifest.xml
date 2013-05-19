@@ -21,12 +21,12 @@
 
     <application android:label="@string/morelangs_application_name"
             android:icon="@drawable/ic_ime_settings"
-            android:backupAgent="org.wikimedia.morelangs.latin.BackupAgent"
+            android:backupAgent="com.marcosdiez.keyboard.latin.BackupAgent"
             android:killAfterRestore="false"
             android:allowBackup="false"
             >
 
-        <service android:name="org.wikimedia.morelangs.latin.LatinIME"
+        <service android:name="com.marcosdiez.keyboard.latin.LatinIME"
                 android:label="@string/morelangs_application_name"
                 android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
@@ -35,7 +35,7 @@
             <meta-data android:name="android.view.im" android:resource="@xml/method" />
         </service>
 
-        <service android:name="org.wikimedia.morelangs.latin.spellcheck.AndroidSpellCheckerService"
+        <service android:name="com.marcosdiez.keyboard.latin.spellcheck.AndroidSpellCheckerService"
                  android:label="@string/spell_checker_service_name"
                  android:permission="android.permission.BIND_TEXT_SERVICE">
             <intent-filter>
@@ -44,27 +44,27 @@
             <meta-data android:name="android.view.textservice.scs" android:resource="@xml/spellchecker" />
         </service>
 
-        <activity android:name="org.wikimedia.morelangs.latin.SettingsActivity" android:label="@string/english_ime_settings"
+        <activity android:name="com.marcosdiez.keyboard.latin.SettingsActivity" android:label="@string/english_ime_settings"
                   android:uiOptions="splitActionBarWhenNarrow">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
 
-        <activity android:name="org.wikimedia.morelangs.latin.spellcheck.SpellCheckerSettingsActivity"
+        <activity android:name="com.marcosdiez.keyboard.latin.spellcheck.SpellCheckerSettingsActivity"
                   android:label="@string/android_spell_checker_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
 
-        <activity android:name="org.wikimedia.morelangs.latin.DebugSettingsActivity" android:label="@string/english_ime_debug_settings">
+        <activity android:name="com.marcosdiez.keyboard.latin.DebugSettingsActivity" android:label="@string/english_ime_debug_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
 
-        <receiver android:name="org.wikimedia.morelangs.latin.SuggestionSpanPickedNotificationReceiver" android:enabled="true">
+        <receiver android:name="com.marcosdiez.keyboard.latin.SuggestionSpanPickedNotificationReceiver" android:enabled="true">
             <intent-filter>
                 <action android:name="android.text.style.SUGGESTION_PICKED" />
             </intent-filter>
