@@ -61,7 +61,6 @@ public class SettingsValues {
     public final boolean mIsLanguageSwitchKeySuppressed;
     @SuppressWarnings("unused") // TODO: Use this
     private final String mKeyPreviewPopupDismissDelayRawValue;
-    public final boolean mUseContactsDict;
     // Suggestion: use bigrams to adjust scores of suggestions obtained from unigram dictionary
     public final boolean mBigramSuggestionEnabled;
     // Prediction: use bigrams to predict the next word when there is no input for it yet
@@ -128,7 +127,6 @@ public class SettingsValues {
         mKeyPreviewPopupDismissDelayRawValue = prefs.getString(
                 Settings.PREF_KEY_PREVIEW_POPUP_DISMISS_DELAY,
                 Integer.toString(res.getInteger(R.integer.config_key_preview_linger_timeout)));
-        mUseContactsDict = prefs.getBoolean(Settings.PREF_KEY_USE_CONTACTS_DICT, true);
         mAutoCorrectEnabled = isAutoCorrectEnabled(res, mAutoCorrectionThresholdRawValue);
         mBigramSuggestionEnabled = mAutoCorrectEnabled
                 && isBigramSuggestionEnabled(prefs, res, mAutoCorrectEnabled);

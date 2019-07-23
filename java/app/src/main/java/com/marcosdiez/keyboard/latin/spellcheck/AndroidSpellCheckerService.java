@@ -27,31 +27,27 @@ import android.view.textservice.SentenceSuggestionsInfo;
 import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 
-
 import com.marcosdiez.keyboard.compat.SuggestionsInfoCompatUtils;
 import com.marcosdiez.keyboard.keyboard.ProximityInfo;
 import com.marcosdiez.keyboard.latin.BinaryDictionary;
 import com.marcosdiez.keyboard.latin.Dictionary;
+import com.marcosdiez.keyboard.latin.Dictionary.WordCallback;
 import com.marcosdiez.keyboard.latin.DictionaryCollection;
 import com.marcosdiez.keyboard.latin.DictionaryFactory;
 import com.marcosdiez.keyboard.latin.LatinIME;
 import com.marcosdiez.keyboard.latin.LocaleUtils;
 import com.marcosdiez.keyboard.latin.R;
 import com.marcosdiez.keyboard.latin.StringUtils;
-import com.marcosdiez.keyboard.latin.SynchronouslyLoadedContactsBinaryDictionary;
-import com.marcosdiez.keyboard.latin.SynchronouslyLoadedContactsDictionary;
 import com.marcosdiez.keyboard.latin.SynchronouslyLoadedUserBinaryDictionary;
 import com.marcosdiez.keyboard.latin.SynchronouslyLoadedUserDictionary;
 import com.marcosdiez.keyboard.latin.WhitelistDictionary;
 import com.marcosdiez.keyboard.latin.WordComposer;
-import com.marcosdiez.keyboard.latin.Dictionary.WordCallback;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Locale;
 import java.util.Map;
 import java.util.TreeMap;
@@ -144,57 +140,8 @@ public class AndroidSpellCheckerService extends SpellCheckerService
     @Override
     public void onSharedPreferenceChanged(final SharedPreferences prefs, final String key) {
         if (!PREF_USE_CONTACTS_KEY.equals(key)) return;
-        synchronized(mUseContactsLock) {
-            mUseContactsDictionary = prefs.getBoolean(PREF_USE_CONTACTS_KEY, true);
-            if (mUseContactsDictionary) {
-                startUsingContactsDictionaryLocked();
-            } else {
-                stopUsingContactsDictionaryLocked();
-            }
-        }
     }
 
-    private void startUsingContactsDictionaryLocked() {
-        if (null == mContactsDictionary) {
-            if (LatinIME.USE_BINARY_CONTACTS_DICTIONARY) {
-                // TODO: use the right locale for each session
-                mContactsDictionary =
-                        new SynchronouslyLoadedContactsBinaryDictionary(this, Locale.getDefault());
-            } else {
-                mContactsDictionary = new SynchronouslyLoadedContactsDictionary(this);
-            }
-        }
-        final Iterator<WeakReference<DictionaryCollection>> iterator =
-                mDictionaryCollectionsList.iterator();
-        while (iterator.hasNext()) {
-            final WeakReference<DictionaryCollection> dictRef = iterator.next();
-            final DictionaryCollection dict = dictRef.get();
-            if (null == dict) {
-                iterator.remove();
-            } else {
-                dict.addDictionary(mContactsDictionary);
-            }
-        }
-    }
-
-    private void stopUsingContactsDictionaryLocked() {
-        if (null == mContactsDictionary) return;
-        final Dictionary contactsDict = mContactsDictionary;
-        // TODO: revert to the concrete type when USE_BINARY_CONTACTS_DICTIONARY is no longer needed
-        mContactsDictionary = null;
-        final Iterator<WeakReference<DictionaryCollection>> iterator =
-                mDictionaryCollectionsList.iterator();
-        while (iterator.hasNext()) {
-            final WeakReference<DictionaryCollection> dictRef = iterator.next();
-            final DictionaryCollection dict = dictRef.get();
-            if (null == dict) {
-                iterator.remove();
-            } else {
-                dict.removeDictionary(contactsDict);
-            }
-        }
-        contactsDict.close();
-    }
 
     @Override
     public Session createSession() {
@@ -386,18 +333,6 @@ public class AndroidSpellCheckerService extends SpellCheckerService
                 for (Dictionary dict : oldWhitelistDictionaries.values()) {
                     dict.close();
                 }
-                synchronized (mUseContactsLock) {
-                    if (null != mContactsDictionary) {
-                        // The synchronously loaded contacts dictionary should have been in one
-                        // or several pools, but it is shielded against multiple closing and it's
-                        // safe to call it several times.
-                        final Dictionary dictToClose = mContactsDictionary;
-                        // TODO: revert to the concrete type when USE_BINARY_CONTACTS_DICTIONARY
-                        // is no longer needed
-                        mContactsDictionary = null;
-                        dictToClose.close();
-                    }
-                }
             }
         }.start();
     }
@@ -440,22 +375,6 @@ public class AndroidSpellCheckerService extends SpellCheckerService
         }
         dictionaryCollection.addDictionary(whitelistDictionary);
         synchronized (mUseContactsLock) {
-            if (mUseContactsDictionary) {
-                if (null == mContactsDictionary) {
-                    // TODO: revert to the concrete type when USE_BINARY_CONTACTS_DICTIONARY is no
-                    // longer needed
-                    if (LatinIME.USE_BINARY_CONTACTS_DICTIONARY) {
-                        // TODO: use the right locale. We can't do it right now because the
-                        // spell checker is reusing the contacts dictionary across sessions
-                        // without regard for their locale, so we need to fix that first.
-                        mContactsDictionary = new SynchronouslyLoadedContactsBinaryDictionary(this,
-                                Locale.getDefault());
-                    } else {
-                        mContactsDictionary = new SynchronouslyLoadedContactsDictionary(this);
-                    }
-                }
-            }
-            dictionaryCollection.addDictionary(mContactsDictionary);
             mDictionaryCollectionsList.add(
                     new WeakReference<DictionaryCollection>(dictionaryCollection));
         }

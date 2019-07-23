@@ -65,7 +65,6 @@ public class Suggest implements Dictionary.WordCallback {
     private static final boolean DBG = LatinImeLogger.sDBG;
 
     private boolean mHasMainDictionary;
-    private Dictionary mContactsDict;
     private WhitelistDictionary mWhiteListDictionary;
     private final ConcurrentHashMap<String, Dictionary> mUnigramDictionaries =
             new ConcurrentHashMap<String, Dictionary>();
@@ -147,10 +146,6 @@ public class Suggest implements Dictionary.WordCallback {
         return mHasMainDictionary;
     }
 
-    public Dictionary getContactsDictionary() {
-        return mContactsDict;
-    }
-
     public ConcurrentHashMap<String, Dictionary> getUnigramDictionaries() {
         return mUnigramDictionaries;
     }
@@ -167,16 +162,6 @@ public class Suggest implements Dictionary.WordCallback {
         addOrReplaceDictionary(mUnigramDictionaries, DICT_KEY_USER, userDictionary);
     }
 
-    /**
-     * Sets an optional contacts dictionary resource to be loaded. It is also possible to remove
-     * the contacts dictionary by passing null to this method. In this case no contacts dictionary
-     * won't be used.
-     */
-    public void setContactsDictionary(Dictionary contactsDictionary) {
-        mContactsDict = contactsDictionary;
-        addOrReplaceDictionary(mUnigramDictionaries, DICT_KEY_CONTACTS, contactsDictionary);
-        addOrReplaceDictionary(mBigramDictionaries, DICT_KEY_CONTACTS, contactsDictionary);
-    }
 
     public void setUserHistoryDictionary(Dictionary userHistoryDictionary) {
         addOrReplaceDictionary(mUnigramDictionaries, DICT_KEY_USER_HISTORY_UNIGRAM,

@@ -16,10 +16,6 @@
 
 package com.marcosdiez.keyboard.latin;
 
-import static com.marcosdiez.keyboard.latin.Constants.ImeOption.FORCE_ASCII;
-import static com.marcosdiez.keyboard.latin.Constants.ImeOption.NO_MICROPHONE;
-import static com.marcosdiez.keyboard.latin.Constants.ImeOption.NO_MICROPHONE_COMPAT;
-
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -71,19 +67,19 @@ import com.marcosdiez.keyboard.keyboard.KeyboardId;
 import com.marcosdiez.keyboard.keyboard.KeyboardSwitcher;
 import com.marcosdiez.keyboard.keyboard.KeyboardView;
 import com.marcosdiez.keyboard.keyboard.LatinKeyboardView;
-import com.marcosdiez.keyboard.latin.R;
 import com.marcosdiez.keyboard.latin.LocaleUtils.RunInLocale;
 import com.marcosdiez.keyboard.latin.define.ProductionFlag;
 import com.marcosdiez.keyboard.latin.suggestions.SuggestionsView;
-
+import com.volosyukivan.WiFiInputMethod;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Locale;
 
-
-import com.volosyukivan.WiFiInputMethod;
+import static com.marcosdiez.keyboard.latin.Constants.ImeOption.FORCE_ASCII;
+import static com.marcosdiez.keyboard.latin.Constants.ImeOption.NO_MICROPHONE;
+import static com.marcosdiez.keyboard.latin.Constants.ImeOption.NO_MICROPHONE_COMPAT;
 
 /**
  * Input method implementation for Qwerty'ish keyboard.
@@ -108,9 +104,6 @@ public class LatinIME extends WiFiInputMethod implements KeyboardActionListener,
      * replacement or removal.
      */
     private static final String SCHEME_PACKAGE = "package";
-
-    /** Whether to use the binary version of the contacts dictionary */
-    public static final boolean USE_BINARY_CONTACTS_DICTIONARY = true;
 
     /** Whether to use the binary version of the user dictionary */
     public static final boolean USE_BINARY_USER_DICTIONARY = true;
@@ -488,19 +481,14 @@ public class LatinIME extends WiFiInputMethod implements KeyboardActionListener,
         };
         mSettingsValues = job.runInLocale(mResources, mSubtypeSwitcher.getCurrentSubtypeLocale());
         mFeedbackManager = new AudioAndHapticFeedbackManager(this, mSettingsValues);
-//        resetContactsDictionary(null == mSuggest ? null : mSuggest.getContactsDictionary());
     }
 
     private void initSuggest() {
         final Locale subtypeLocale = mSubtypeSwitcher.getCurrentSubtypeLocale();
         final String localeStr = subtypeLocale.toString();
 
-        final Dictionary oldContactsDictionary;
         if (mSuggest != null) {
-            oldContactsDictionary = mSuggest.getContactsDictionary();
             mSuggest.close();
-        } else {
-            oldContactsDictionary = null;
         }
         mSuggest = new Suggest(this, subtypeLocale);
         if (mSettingsValues.mAutoCorrectEnabled) {
@@ -518,55 +506,12 @@ public class LatinIME extends WiFiInputMethod implements KeyboardActionListener,
         }
         mSuggest.setUserDictionary(mUserDictionary);
 
-        resetContactsDictionary(oldContactsDictionary);
-
         // Note that the calling sequence of onCreate() and onCurrentInputMethodSubtypeChanged()
         // is not guaranteed. It may even be called at the same time on a different thread.
         if (null == mPrefs) mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
         mUserHistoryDictionary = UserHistoryDictionary.getInstance(
                 this, localeStr, Suggest.DIC_USER_HISTORY, mPrefs);
         mSuggest.setUserHistoryDictionary(mUserHistoryDictionary);
-    }
-
-    /**
-     * Resets the contacts dictionary in mSuggest according to the user settings.
-     *
-     * This method takes an optional contacts dictionary to use. Since the contacts dictionary
-     * does not depend on the locale, it can be reused across different instances of Suggest.
-     * The dictionary will also be opened or closed as necessary depending on the settings.
-     *
-     * @param oldContactsDictionary an optional dictionary to use, or null
-     */
-    private void resetContactsDictionary(final Dictionary oldContactsDictionary) {
-        final boolean shouldSetDictionary = (null != mSuggest && mSettingsValues.mUseContactsDict);
-
-        final Dictionary dictionaryToUse;
-        if (!shouldSetDictionary) {
-            // Make sure the dictionary is closed. If it is already closed, this is a no-op,
-            // so it's safe to call it anyways.
-            if (null != oldContactsDictionary) oldContactsDictionary.close();
-            dictionaryToUse = null;
-        } else if (null != oldContactsDictionary) {
-            // Make sure the old contacts dictionary is opened. If it is already open, this is a
-            // no-op, so it's safe to call it anyways.
-            if (USE_BINARY_CONTACTS_DICTIONARY) {
-                ((ContactsBinaryDictionary)oldContactsDictionary).reopen(this);
-            } else {
-                ((ContactsDictionary)oldContactsDictionary).reopen(this);
-            }
-            dictionaryToUse = oldContactsDictionary;
-        } else {
-            if (USE_BINARY_CONTACTS_DICTIONARY) {
-                dictionaryToUse = new ContactsBinaryDictionary(this, Suggest.DIC_CONTACTS,
-                        mSubtypeSwitcher.getCurrentSubtypeLocale());
-            } else {
-                dictionaryToUse = new ContactsDictionary(this, Suggest.DIC_CONTACTS);
-            }
-        }
-
-        if (null != mSuggest) {
-            mSuggest.setContactsDictionary(dictionaryToUse);
-        }
     }
 
     /* package private */ void resetSuggestMainDict() {
