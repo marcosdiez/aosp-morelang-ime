@@ -18,6 +18,7 @@ package com.marcosdiez.keyboard.latin;
 
 import android.content.Intent;
 import android.preference.PreferenceActivity;
+import android.util.Log;
 
 public class SettingsActivity extends PreferenceActivity {
     private static final String DEFAULT_FRAGMENT = Settings.class.getName();
@@ -31,4 +32,21 @@ public class SettingsActivity extends PreferenceActivity {
         intent.putExtra(EXTRA_NO_HEADERS, true);
         return intent;
     }
+
+   private final String[] FRAGMENTS = {
+            "com.marcosdiez.keyboard.latin.Settings",
+            "com.marcosdiez.keyboard.latin.AdditionalSubtypeSettings"
+    };
+
+    @Override
+    protected boolean isValidFragment(String fragmentName) {
+        Log.d("IsValidFragment", fragmentName);
+        for (String FRAGMENT : FRAGMENTS) {
+            if (FRAGMENT.equals(fragmentName)) {
+                return true;
+            }
+        }
+        return super.isValidFragment(fragmentName);
+    }
+
 }

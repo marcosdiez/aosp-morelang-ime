@@ -16,8 +16,6 @@
 
 package com.marcosdiez.keyboard.latin;
 
-import static com.marcosdiez.keyboard.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -45,10 +43,11 @@ import android.widget.SpinnerAdapter;
 import android.widget.Toast;
 
 import com.marcosdiez.keyboard.compat.CompatUtils;
-import com.marcosdiez.keyboard.latin.R;
 
 import java.util.ArrayList;
 import java.util.TreeSet;
+
+import static com.marcosdiez.keyboard.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
 
 public class AdditionalSubtypeSettings extends PreferenceFragment {
     private SharedPreferences mPrefs;
@@ -131,11 +130,13 @@ public class AdditionalSubtypeSettings extends PreferenceFragment {
             setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
             // TODO: Should filter out already existing combinations of locale and layout.
-            for (final String layout : SubtypeLocale.getPredefinedKeyboardLayoutSet()) {
-                // This is a dummy subtype with NO_LANGUAGE, only for display.
-                final InputMethodSubtype subtype = AdditionalSubtype.createAdditionalSubtype(
-                        SubtypeLocale.NO_LANGUAGE, layout, null);
-                add(new KeyboardLayoutSetItem(subtype));
+            if( SubtypeLocale.getPredefinedKeyboardLayoutSet() != null) {
+                for (final String layout : SubtypeLocale.getPredefinedKeyboardLayoutSet()) {
+                    // This is a dummy subtype with NO_LANGUAGE, only for display.
+                    final InputMethodSubtype subtype = AdditionalSubtype.createAdditionalSubtype(
+                            SubtypeLocale.NO_LANGUAGE, layout, null);
+                    add(new KeyboardLayoutSetItem(subtype));
+                }
             }
         }
     }
