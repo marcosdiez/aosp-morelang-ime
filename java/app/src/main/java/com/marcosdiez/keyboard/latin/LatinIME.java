@@ -109,11 +109,11 @@ public class LatinIME extends WiFiInputMethod implements KeyboardActionListener,
      */
     private static final String SCHEME_PACKAGE = "package";
 
-//    /** Whether to use the binary version of the contacts dictionary */
-//    public static final boolean USE_BINARY_CONTACTS_DICTIONARY = true;
+    /** Whether to use the binary version of the contacts dictionary */
+    public static final boolean USE_BINARY_CONTACTS_DICTIONARY = true;
 
-//    /** Whether to use the binary version of the user dictionary */
-//    public static final boolean USE_BINARY_USER_DICTIONARY = true;
+    /** Whether to use the binary version of the user dictionary */
+    public static final boolean USE_BINARY_USER_DICTIONARY = true;
 
     // TODO: migrate this to SettingsValues
     private int mSuggestionVisibility;
